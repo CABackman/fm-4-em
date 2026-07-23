@@ -1,0 +1,309 @@
+Name,Abbrev.,Category,Molecular,OB(CO2),r0,HGAS,HSUB,Q,D,P,EG,h50(calc),h50(obs),SMILES
+"4-picrylamino-1,2,3-triazole",,Unst. (N2 loss),C8H5N7O6,-67.8,1.719,382.3,185,5.05,7.203,223.8,4794,80,103,n1n[nH]cc1Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1-(3',5'-dinitrophenyl)-4-nitro-1,2,3-triazole",,Unst. (N2 loss),C8H4N6O6,-68.5,1.701,367,162,5.27,7.131,217.9,4623,52,56,n1c(cn(n1)c1cc(cc(c1)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1-(3',4'-dinitrophenyl)-4-nitro-1,2,3-triazole",,Unst. (N2 loss),C8H4N6O6,-68.5,1.701,403.8,162,5.4,7.175,220.6,4739,52,51,n1c(cn(n1)c1ccc(c(c1)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"4,6-dinitro-1-picryl-benzotriazole",,Unst. (N2 loss),C12H4N8O10,-60.9,1.783,478.4,240,5.46,7.415,242.5,5016,39,40,c1(c2c(cc(c1)[N+](=O)[O-])n(nn2)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1-Picryl-5,7-dinitrobenzotriazole",BTX,Unst. (N2 loss),C12H4N8O10,-60.9,1.783,455.3,240,5.41,7.396,241.3,4966,39,40,c1c(cc(c2c1nnn2c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1,5-dipicrylbenzo-[1,2-d:4,5-d']-bistriazole",,Unst. (N2 loss),C18H6N12O12,-74.2,1.768,894.1,319,5.27,7.139,223.6,4594,54,40,c1c2c(cc3c1n(nn3)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])n(nn2)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1,7-dipicrylbenzo-[1,2-d:4,5-d']-bistriazole",,Unst. (N2 loss),C18H6N12O12,-74.2,1.768,891,319,5.27,7.137,223.5,4589,54,38,c1c2c(cc3c1n(nn3)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])nnn2c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+5-picrylaminotetrazole,,Unst. (tetrazole),C7H4N8O6,-54,1.779,465.1,190,5.22,7.617,255.6,5454,64,36,n1nn[nH]c1Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"5,6-dinitro-1-picryl-benzotriazole",,Unst. (N2 loss),C12H4N8O10,-60.9,1.783,494,240,5.5,7.428,243.3,5051,39,35,c12cc(c(cc1nnn2c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1-picryl-4-picrylamino-1,2,3-triazole",,Unst. (N2 loss),C14H6N10O12,-60,1.759,532.1,294,5.4,7.4,239.5,5030,52,35,n1c(cn(n1)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1-(3'-Amino-2',4',6'-trinitrophenyl)-1,2,3-triazole",,Unst. (N2 loss),C8H5N7O6,-67.8,1.729,411.3,179,5.17,7.274,229,4965,84,31,n1ccn(n1)c1c(cc(c(c1[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-]
+"4-nitro-1,2,3-triazole",,Unst. (N2 loss),C2H2N4O2,-42.1,1.74,278.7,83,5.56,7.976,276.5,6198,26,25,c1nn[nH]c1[N+](=O)[O-]
+"2-Azido-1,3,5-trinitrobenzene",Picryl azide,Unst. (azide),C6H2N6O6,-44.1,1.758,419.1,168,5.81,7.743,262.2,5621,22,19,c1(c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])N=[N+]=[N-]
+"5-Nitro-2-nitratomethyl-1,2,3,4-tetrazole",,Unst. (tetrazole),C2H2N6O5,0,1.844,296.8,122,6.33,9.021,366.2,7923,9,17,c1(nnn(n1)CO[N+](=O)[O-])[N+](=O)[O-]
+Azidopentanitrobenzene,CL-16,Unst. (azide),C6N8O10,-9.3,1.921,545.2,225,6.65,8.889,364.1,7798,8,17,c1(c(c(c(c(c1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])N=[N+]=[N-]
+1-Picrylbenzotriazole,,Unst. (N2 loss),C12H6N6O6,-101.8,1.643,480.4,183,4.88,6.372,170.3,3425,178,11,c1cccc2c1nnn2c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1-Picryl-1,2,3-triazole",,Unst. (N2 loss),C8H4N6O6,-68.5,1.701,422.3,162,5.46,7.196,221.9,4796,52,10,n1ccn(n1)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2-Diazo-4,6-dinitrophenol",DDNP,Unst.,C6H2N4O5,-60.9,1.721,191.5,141,5.13,7.123,219,4349,33,9,c1(c(cc(cc1[N+]#N)[N+](=O)[O-])[N+](=O)[O-])[O-]
+HNFX,HNFX,Unst. (NF2),C6H8N8O4F8,-31.4,1.869,84,137,7.15,9.291,391.5,9579,10,8,C1(CN(CC(CN(C1)[N+](=O)[O-])(N(F)F)N(F)F)[N+](=O)[O-])(N(F)F)N(F)F
+"3-Methyl-2-diazo-4,5,6-trinitrophenol",Me-NO2-DDNP,Unst.,C7H3N5O7,-50.5,1.747,221.4,173,5.55,7.527,246.8,5183,30,8,c1(c(c(c(c(c1[N+]#N)C)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[O-]
+"5-Chloro-2-diazo-4,6-dinitrophenol",5-Cl-DDNP,Unst.,C6HN4O5Cl,-45.8,1.819,206.4,148,4.64,7.244,234.2,4145,31,8,c1(c(c(c(cc1[N+]#N)[N+](=O)[O-])Cl)[N+](=O)[O-])[O-]
+"4,4,8,8-Tetranitro-1,11-dinitrato-6-nitrazaundecane",,ONO2,C10H16N8O16,-38.1,1.624,-308.3,293,5.77,7.775,251.5,5836,34,87,N(N(=O)=O)(CCC(CCON(=O)=O)(N(=O)=O)N(=O)=O)CCC(CCON(=O)=O)(N(=O)=O)N(=O)=O
+"Compound (21) in PEP 19,249 (1994)",,ONO2,C16H9N9O17,-52.1,1.727,277.2,346,5.8,7.567,247.7,5379,41,61,C(=C\c1c(cc(c(c1[N+](=O)[O-])N(CCO[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])/c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"Compound (5) in PEP 19,249 (1994)",,ONO2,C8H9N7O9,-53,1.731,-39.4,231,4.91,7.534,245.9,5259,140,50,c1(c(c(c(c(c1[N+](=O)[O-])N)[N+](=O)[O-])N)[N+](=O)[O-])NCCO[N+](=O)[O-]
+"Compound (2) in PEP 19,249 (1994)",,ONO2,C12H15N9O15,-50.3,1.664,-138,328,5.37,7.554,241.2,5429,87,43,c1(c(c(c(c(c1[N+](=O)[O-])NCCO[N+](=O)[O-])[N+](=O)[O-])NCCO[N+](=O)[O-])[N+](=O)[O-])NCCO[N+](=O)[O-]
+Nitrocellulose,NC,ONO2,C12H14N6O22,-24.2,1.852,-976.1,333,5.61,8.425,320.2,6756,41,39,O1C(C2C(C(C1OC1C(OC(C(C1O[N+](=O)[O-])O[N+](=O)[O-])O2)CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-])CO[N+](=O)[O-]
+"3,5,5-trinitro-3-azahexyl nitrate",,ONO2,C5H9N5O9,-31.1,1.617,-143.4,168,5.87,7.904,259.2,6031,28,21,N(N(=O)=O)(CCON(=O)=O)CC(N(=O)=O)(C)N(=O)=O
+"1,2,3-propanetriol trinitrate",,ONO2,C3H5N3O9,3.5,1.73,-295.4,146,5.92,8.507,313.4,6714,12,20,O(CC(ON(=O)=O)CON(=O)=O)N(=O)=O
+"Compound (1) in PEP 19,249 (1994)",,ONO2,C10H10N8O14,-37.7,1.719,8.8,283,5.8,7.916,270.3,6045,36,20,c1(c(cc(c(c1[N+](=O)[O-])N(CCO[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])NCCO[N+](=O)[O-]
+"2,2-bis(nitroxymethyl)-1,3-propanediol dinitrate",PETN,ONO2,C5H8N4O12,-10.1,1.697,-380.3,192,6.23,8.401,302,6794,17,13,C(C(CON(=O)=O)(CON(=O)=O)CON(=O)=O)ON(=O)=O
+"3-[N-(2,2,2-trintro-ethyl)nitramino]propyl nitrate",,ONO2,C5H8N6O11,-14.6,1.705,-77.6,200,6.3,8.438,305.6,6981,16,12,N(CCCON(=O)=O)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"1,9-dinitrato-2,4,6,8-tetranitrazanonane",,ONO2,C5H10N10O14,-3.7,1.742,-1.6,260,6.26,8.736,331.9,7395,11,10,O(CN(CN(CN(CN(CON(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+"N-(2,2,2-trinitroethyl)-nitraminoethyl nitrate",,ONO2,C4H6N6O11,0,1.767,-44.5,193,6.56,8.852,343.7,7698,10,7,N(N(=O)=O)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)CCON(=O)=O
+Erythritol tetranitrate,ETN,ONO2,C4H6N4O12,5.3,1.751,-369.1,189,5.76,8.49,314.4,6605,11,6,O(CC(C(CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-])[N+](=O)[O-]
+N-Nitro-N-methylformamide,,NNO2,C2H4N2O3,-46.1,1.484,-141.3,71,4.5,6.919,187.7,4056,118,320,CN(C=O)[N+](=O)[O-]
+"1,7-dimethoxy-2,4,6-trinitrazaheptane",,NNO2,C6H14N6O8,-59,1.487,-197.2,170,5.11,7.124,199.2,4790,122,166,N(N(=O)=O)(CN(COC)N(=O)=O)CN(N(=O)=O)COC
+"2,2-dinitropropanediol-bis-(5,5-dinitro-2-nitraza-hexanoate)",,NNO2,C13H18N10O20,-37.8,1.636,-793.9,356,5.03,7.494,234.8,5029,57,138,O(CC(N(=O)=O)(COC(=O)N(CCC(C)(N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O)C(=O)N(CCC(N(=O)=O)(C)N(=O)=O)N(=O)=O
+"N-methyl-N,N'-dinitro-1,2-ethanediamine",,NNO2,C3H8N4O4,-58.5,1.483,16.5,110,5.32,7.258,206.4,5108,69,114,N(N(=O)=O)CCN(N(=O)=O)C
+"1,4-dinitroglycoluril",,NNO2,C4H4N6O6,-27.6,1.883,-60.6,142,4.6,8.131,301.2,5785,79,100,N1C(=O)N(C2C1N(C(=O)N2)[N+](=O)[O-])[N+](=O)[O-]
+"N,N'-dinitro-N,N'-bis-(3-nitrazabutyl)-oxamide",,NNO2,C8H14N8O10,-54.4,1.556,-133.5,221,5.05,7.226,211.3,4845,79,90,N(CCN(C(=O)C(=O)N(N(=O)=O)CCN(C)N(=O)=O)N(=O)=O)(N(=O)=O)C
+"2-Nitroimino-5-nitrohexahydro-1,3,5-triazine",,NNO2,C3H6N6O4,-42.1,1.722,187.5,127,5.17,7.987,275.5,6078,73,80,C1(=N[N+](=O)[O-])NCN(CN1)[N+](=O)[O-]
+"N-(2,2-dinitrobutyl)-N-2,2-trinitro-1-butanamine",,NNO2,C8H14N6O10,-58.7,1.531,-112.6,199,5.56,7.275,211.9,5155,64,80,N(N(=O)=O)(CC(N(=O)=O)(N(=O)=O)CC)CC(N(=O)=O)(CC)N(=O)=O
+"N,N'-dimethyl-N,N'-dinitrooxamide",,NNO2,C4H6N4O6,-38.8,1.595,-199.8,126,4.8,7.32,220.4,4681,77,79,N(N(=O)=O)(C)C(=O)C(=O)N(N(=O)=O)C
+"2,2,4,7,9,9-hexanitro-4,7-diazadecane",,NNO2,C8H14N8O12,-42.5,1.592,-82,233,5.7,7.663,241.2,5686,37,72,N(CCN(CC(N(=O)=O)(N(=O)=O)C)N(=O)=O)(CC(C)(N(=O)=O)N(=O)=O)N(=O)=O
+"Compound (16) in PEP 39,90 (2014)",,NNO2,C10H10N8O14,-37.7,1.726,-625.2,244,4.53,7.461,240.7,4751,88,63,N1(C(=O)N(C2(C1(N(C(=O)N2[N+](=O)[O-])[N+](=O)[O-])C(=O)OCC)C(=O)OCC)[N+](=O)[O-])[N+](=O)[O-]
+",4,6,8-tetraazabicyclo[3.3.0]octane-3-one",HK-55,NNO2,C4H5N7O7,-21.3,1.847,76.3,151,5.38,8.477,323.6,6717,24,61,N1(CN(C2C1N(C(=O)N2)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"N,N'-dinitro-N,N'-bis-[2-(nitroamino)ethyl]-1,2-ethanediamine",,NNO2,C6H14N8O8,-54,1.552,74.7,210,5.38,7.473,225.6,5438,54,53,C(CN(N(=O)=O)CCNN(=O)=O)N(N(=O)=O)CCNN(=O)=O
+"2,2,6,9,9-pentanitro-4-oxa-5-oxo-6-azadecane",,NNO2,C8H12N6O12,-41.6,1.601,-482.3,218,5.03,7.382,224.7,4895,61,47,N(N(=O)=O)(CCC(C)(N(=O)=O)N(=O)=O)C(=O)OCC(N(=O)=O)(C)N(=O)=O
+"2,2,4,7,7,10,12,12-octanitro-4,10-diazatridecane",,NNO2,C11H18N10O16,-43.9,1.6,-144.4,304,5.68,7.638,240.5,5645,38,44,N(CCC(N(=O)=O)(N(=O)=O)CCN(N(=O)=O)CC(N(=O)=O)(C)N(=O)=O)(CC(C)(N(=O)=O)N(=O)=O)N(=O)=O
+trinitroethyl-2-methoxy-ethylnitramine,,NNO2,C5H9N5O9,-31.1,1.617,-140.5,168,5.88,7.907,259.5,6042,36,42,N(CCOC)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"N,N'-dinitro-N-[2-(nitroamino)ethyl]-1,2-ethanediamine",,NNO2,C4H10N6O6,-47,1.567,49.9,162,5.43,7.624,236.3,5630,46,39,N(N(=O)=O)CCN(N(=O)=O)CCNN(=O)=O
+"2,2,5,7,7,9,12,12-octanitro-5,9-diazatridecane",,NNO2,C11H18N10O16,-43.9,1.6,-102.3,304,5.76,7.664,242.1,5721,38,37,N(CC(N(=O)=O)(CN(N(=O)=O)CCC(N(=O)=O)(N(=O)=O)C)N(=O)=O)(CCC(N(=O)=O)(C)N(=O)=O)N(=O)=O
+"N,N'-dinitro-N,N'-bis-(3,3-dintrobutyl)-oxamide-triazatetradecane",,NNO2,C10H14N8O14,-44.2,1.613,-366.2,267,5.18,7.431,228.8,5061,55,37,O=C(N(N(=O)=O)CCC(N(=O)=O)(N(=O)=O)C)C(=O)N(N(=O)=O)CCC(N(=O)=O)(N(=O)=O)C
+"1,4,5,8-êtetranitro-hexahydropyrazino[2,3:b]piperazine",,NNO2,C6H10N8O8,-44.7,1.716,273.2,172,5.9,8.114,283.7,6693,30,35,N1(CCN(C2C1N(CCN2[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"N,N'-3,3-tetranitro-1,5-pentanediamine",,NNO2,C5H10N6O8,-39.7,1.613,-52.1,186,5.53,7.761,249.5,5784,37,35,N(CCC(N(=O)=O)(N(=O)=O)CCNN(=O)=O)N(=O)=O
+"2,2,2-trinitroethyl-4-nitrazavalerate",,NNO2,C6H9N5O10,-33.4,1.631,-311.3,186,5.38,7.678,246,5431,47,35,N(CC(=O)OCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])(CC)[N+](=O)[O-]
+"N,N'-dinitro-1,2-ethanediamine",,NNO2,C2H6N4O4,-32,1.605,35.7,115,5.62,7.997,264.1,6156,33,34,N(N(=O)=O)CCNN(=O)=O
+"2,4,6-Trinitrophenylmethylnitramine",Tetryl,NNO2,C7H5N5O8,-47.4,1.707,142.9,171,5.78,7.649,251.3,5563,38,32,c1(c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])N([N+](=O)[O-])C
+cyclotetrametylene-tetranitramine,,NNO2,C4H8N8O8,-21.6,1.758,251.5,169,6.2,8.641,326.5,7483,16,29,C1N(CN(CN(CN1N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+"bis-(2,2,2-trinitroethyl)-3,6-dintraza-1,8-octanedioate",,NNO2,C10H12N10O20,-16.2,1.735,-637.5,347,5.44,8.115,285.7,5986,25,29,N(N(=O)=O)(CC(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)CCN(N(=O)=O)CC(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"bis-(2,2,2-trinitroethyl)-4-nitraza-1,7-heptanedioate",,NNO2,C10H12N8O18,-24,1.703,-724.4,314,5.21,7.842,263.7,5503,36,29,N(N(=O)=O)(CCC(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)CCC(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"N-(2,2-nitropropyl)-N,2,2-trinitro-1-propanamine",,NNO2,C6H10N6O10,-34.3,1.615,-106.9,186,5.82,7.825,253.9,5903,30,29,N(N(=O)=O)(CC(N(=O)=O)(N(=O)=O)C)CC(N(=O)=O)(C)N(=O)=O
+cyclotrimethylene-trinitramine,RDX,NNO2,C3H6N6O6,-21.6,1.757,186.2,129,6.18,8.63,325.6,7452,16,26,N1(CN(CN(C1)N(=O)=O)N(=O)=O)N(=O)=O
+"trinitroethyl-5,5-dinitro-3-nitrazahexanoate",,NNO2,C7H9N7O14,-17.3,1.712,-371,243,5.64,8.127,284.2,6116,24,25,O(CC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)CN(N(=O)=O)CC(C)(N(=O)=O)N(=O)=O
+"Compound (15) in PEP 39,90 (2014)",,NNO2,C8H6N8O14,-18.3,1.82,-465.6,230,5.01,8.073,291,5712,43,25,N1(C(=O)N(C2(C1(N(C(=O)N2[N+](=O)[O-])[N+](=O)[O-])C(=O)OC)C(=O)OC)[N+](=O)[O-])[N+](=O)[O-]
+"1,1,1,3,6,6,8,10,10,13,15,15,15-tridecanitro-3,8,13-triazapentadecane",,NNO2,C12H16N16O26,-12,1.753,108,458,6.4,8.609,323.5,7319,13,23,N(=O)(=O)C(N(=O)=O)(CN(CCC(CN(N(=O)=O)CC(CCN(CC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O)(N(=O)=O)N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+"2,2,2-trinitroethyl-2,5,5-trinitro-2-azahexanoate",,NNO2,C7H9N7O14,-17.3,1.712,-370.6,243,5.64,8.127,284.2,6116,24,22,O(CC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)N(N(=O)=O)CCC(N(=O)=O)(N(=O)=O)C
+"N-nitro-N,N'-bis-(trinitropropyl)-urea",,NNO2,C7H9N9O15,-12.2,1.757,-177.1,280,5.87,8.422,310.1,6707,18,21,N(C(=O)NCCC(N(=O)=O)(N(=O)=O)N(=O)=O)(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"N-Methyl-2-amino-N,3,4,5,6-pentanitrotoluene",,NNO2,C8H6N6O10,-41.6,1.729,186.1,203,6.03,7.883,269,6048,35,21,c1(c(c(c(c(c1N(C)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+"2,2,2-trinitroethyl-3,3-dinitrobutyl nitramine",,NNO2,C6H9N7O12,-19.4,1.692,-51.3,217,6.19,8.294,293.8,6716,17,20,N(CCC(N(=O)=O)(N(=O)=O)C)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"Compound (2) in JOC 61,9340 (1996)",,NNO2,C6H8N8O8,-40,1.761,490.2,163,6.5,8.419,310.3,7485,22,19,C12C(C3C1N(CN3[N+](=O)[O-])[N+](=O)[O-])N(CN2[N+](=O)[O-])[N+](=O)[O-]
+"1,1,1,3,6,9,12,14,14,14-decanitro-3,6,9,12-tetraza-tetradecane",,NNO2,C10H16N14O20,-19.6,1.709,177.2,377,6.28,8.416,304.4,7017,16,19,N(N(=O)=O)(CCN(N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O)CCN(N(=O)=O)CCN(N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1,1,1,18,18,18-hexanitro-3,16-dioxa-4,15-dioxo-5,8,11-14-tetranitrazaoctadecane",,NNO2,C12H16N14O24,-17.3,1.729,-451.1,429,5.68,8.219,292.4,6311,23,19,C(OC(=O)N(CCN(CCN(CCN(C(=O)OCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+trinitroethyl-N-ethyl-N-nitro-carbamate,,NNO2,C5H7N5O10,-18.8,1.687,-328.2,179,5.45,7.989,272.1,5810,31,19,O(CC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)N(N(=O)=O)CC
+"2,2,2-Trinitroethyl-2,4,6,6-tetranitro-2,4-diazaheptanoate",,NNO2,C7H9N9O16,-8.4,1.751,-282.5,277,5.87,8.434,310.3,6669,17,18,O=C(N(CN(N(=O)=O)CC(C)(N(=O)=O)N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"N-Methyl-3-amino-N,2,4,5,6-pentanitrotoluene",,NNO2,C8H6N6O10,-41.6,1.729,177.8,203,6,7.875,268.5,6025,35,18,c1(c(c(c(c(c1[N+](=O)[O-])N(C)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+N-nitro-N-(trinitroethyl)-glycinamide,,NNO2,C4H6N6O9,-11.3,1.77,-138.9,182,5.62,8.437,312.6,6617,22,17,C(C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])N(CC(=O)N)[N+](=O)[O-]
+N-methyl-N-nitro-(trinitroethyl)-carbamate,,NNO2,C4H5N5O10,-2.8,1.754,-286.2,172,5.73,8.428,310.2,6505,18,17,O=C(N(C)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"bis-(trinitroethyl)-2,5,8-trinitrazanonanedioate",,NNO2,C10H12N12O22,-9.8,1.762,-526.7,381,5.66,8.355,305.7,6438,19,17,O=C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(CCN(N(=O)=O)CCN(C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+"trinitropropyl-(2,2-dinitropropyl)-nitramine",,NNO2,C6H9N7O12,-19.4,1.692,-59.8,217,6.16,8.286,293.2,6690,17,17,N(N(=O)=O)(CC(C)(N(=O)=O)N(=O)=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1,4-bis-(5,5,5-trinitro-2-nitrazapentanoate)-2-butyne",,NNO2,C10H8N10O20,-10.9,1.771,-196.5,352,6.06,8.397,309.7,6658,19,16,O(C#COC(=O)N([N+](=O)[O-])CCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])C(=O)N([N+](=O)[O-])CCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+"2,2-dinitropropyl-5,5,5-trinitro-2-nitrazapentanoate",,NNO2,C7H9N7O14,-17.3,1.712,-380.5,243,5.62,8.119,283.6,6090,24,16,N(N(=O)=O)(C(=O)OCC(N(=O)=O)(C)N(=O)=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O
+trinitroethyl-nitroguanidine,,NNO2,C3H5N7O8,-3,1.82,104.4,183,6.02,8.882,352.3,7540,17,15,N(=C(\N)/NCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])/[N+](=O)[O-]
+"Bis-(5,5,5-trinitro-3-nitrazapentanoyl)-methylenedinitramine",,NNO2,C9H10N14O22,-2.4,1.805,-13,391,6.23,8.773,342,7400,11,15,C(N(CC(=O)N(CN(C(=O)CN(CC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+"bis-(5,5,5-trinitro-3-nitrazapentanoyl)-methylenedinitramine",,NNO2,C9H14N14O20,-12.5,1.75,205.6,381,6.39,8.647,326.1,7413,13,15,N(C(NN(=O)=O)(CCN(N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O)CCN(CC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+"2',2',2'-trinitroethyl-2,5-dinitrazahexanoate",,NNO2,C6H9N7O12,-19.4,1.69,-266.1,219,5.6,8.084,278.9,6069,27,15,N(N(=O)=O)(CCN(C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O)C
+"1,3,3,5,5-pentanitropiperidine",,NNO2,C5H6N6O10,-15.5,1.799,-4.3,176,6.2,8.623,329.7,7302,14,14,N(=O)(=O)C1(CN(CC(C1)(N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+"bis-(2,2,2-trinitroethyl)-3-nitrazaglutarate",,NNO2,C8H8N8O18,-6.3,1.781,-640.8,300,5.52,8.329,305.8,6254,20,14,C(N(CC(=O)OCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C(=O)OCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+Hexanitrohexaazaisowurtzitane,HNIW or CL-20,NNO2,C6H6N12O12,-11,1.994,564.8,224,6.48,9.434,418.9,9040,8,13,C12N(C3C(N1[N+](=O)[O-])N(C1C(N3[N+](=O)[O-])N(C2N1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"N,N'-dinitromethanediamine",,NNO2,CH4N4O4,0,1.743,61.2,108,6.1,8.925,346.5,7614,13,13,C(NN(=O)=O)NN(=O)=O
+"bis-(trinitroethyl)-2,4,6-trinitrazaheptanedioate",,NNO2,C8H8N12O22,5.1,1.832,-435.3,368,5.31,8.513,324.9,6416,12,13,O=C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(CN(CN(C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+"N,N'-dinitromethylene-bis-(4,4,4-trinitro)-butyramide",,NNO2,C9H10N10O18,-14.6,1.753,-224.4,323,5.89,8.34,303.6,6576,18,13,O=C(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(CN(N(=O)=O)C(=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"1,3,5-tris(1-oxo-5,5,5-trinitro-3-nitrazapentyl)-s-triazacyclohexane",,NNO2,C15H18N18O27,-21.8,1.753,-167.4,494,5.73,8.249,297,6453,26,13,C1N(CN(CN1C(=O)CN(CC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C(=O)CN(CC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C(=O)CN(CC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1,1,1,3,6,9,11,11,11-nonanitro-3,6,9-triazaundecane",,NNO2,C8H12N12O18,-11.3,1.744,146.6,330,6.43,8.638,324.7,7391,12,12,N(N(=O)=O)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)CCN(N(=O)=O)CCN(N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+"bis-(trinitroethyl)-5,5-dinitro-2,8-dintraza-nonanedioate",,NNO2,C11H12N12O24,-9.2,1.771,-616.9,405,5.7,8.372,307.8,6468,19,12,N(=O)(=O)C(N(=O)=O)(CCN(N(=O)=O)C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)CCN(C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"Compound (1) in JOC 61,9340 (1996)",,NNO2,C6H4N8O10,-18.4,1.894,235.3,183,6.06,8.723,347.8,7447,17,11,C12C(C3C1N(C(=O)N3[N+](=O)[O-])[N+](=O)[O-])N(C(=O)N2[N+](=O)[O-])[N+](=O)[O-]
+"1,1,1,4,6,6,8,11,11,11-Decanitro-4,8-diazaundecane",,NNO2,C9H12N12O20,-10.5,1.755,41.4,353,6.4,8.627,325.1,7328,12,11,N(CC(N(=O)=O)(CN(N(=O)=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O)(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"1,1,1,5,7,10,14,14,14-nonanitro-3,12-dioxa-4,11-dioxo-5,7,10-triazatetradecane",,NNO2,C9H10N12O22,-2.5,1.796,-479.7,374,5.8,8.571,325.4,6797,15,11,C(COC(=O)N(CN(CCN(C(=O)OCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+trinitroethyl-cyanomethylnitramine,,NNO2,C4H4N6O8,-12.1,1.737,216.2,173,6.46,8.507,314.2,7110,13,11,N(CC#N)(CC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"Compound (14) in PEP 39,90 (2014)",,NNO2,C6H6N8O10,-22.8,1.803,35.1,179,5.59,8.31,306.6,6516,23,11,N1(C(=O)N(C2(C1(N(C(=O)N2[N+](=O)[O-])[N+](=O)[O-])C)C)[N+](=O)[O-])[N+](=O)[O-]
+"N-methyl-N'-trinitroethyl-N,N'-dinitro-1,2-ethanediamine",,NNO2,C5H9N7O10,-22,1.666,69.5,194,6.25,8.284,290.3,6791,18,11,N(CCN(N(=O)=O)C)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"1,1,1,3,6,6,9,11,11,11-decanitro-3,9-diazaundecane",,NNO2,C9H12N12O20,-10.5,1.755,73.7,353,6.46,8.645,326.5,7391,12,10,N(CCC(N(=O)=O)(N(=O)=O)CCN(N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"bis-(trinitroethyl)-2,4-dinitrazapentanedioate",,NNO2,C7H6N10O20,8.7,1.851,-510.1,327,4.8,8.334,313.2,5851,12,10,C(N(N(=O)=O)C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"methyl-2,2,2-trinitroethylnitramine",,NNO2,C3H5N5O8,-3.3,1.73,37.9,146,6.6,8.748,331.4,7567,11,9,N(N(=O)=O)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)C
+"2,2,2-trinitroethyl-N-(2,2,2-trinitroethyl)-nitramino acetate",,NNO2,C6H6N8O16,3.6,1.807,-111.5,263,6.08,8.71,337.3,7154,11,9,C([C@H](CC(N(=O)=O)(N(=O)=O)N(=O)=O)N(N(=O)=O)OC(=O)C)(N(=O)=O)(N(=O)=O)N(=O)=O
+"N-nitro-N-(3,3,3-trinitropropyl)-2,2,2-trintroethyl carbamate",,NNO2,C6H6N8O16,3.6,1.82,-288.9,267,5.67,8.604,330.5,6755,11,9,O=C(N(N(=O)=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"N,N'-dinitro-N,N'-bis-(3,3,3-trinitropropyl)-oxamide",,NNO2,C8H8N10O18,-6,1.793,-184.9,316,6.05,8.59,326.5,6995,13,9,N(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)(N(=O)=O)C(=O)C(=O)N(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"1-nitro-2,5-bis-(trinitromethyl)-pyrrolidine",,NNO2,C6H6N8O14,-3.9,1.827,124.4,238,6.7,8.956,359,8020,9,6,N1(C(CCC1C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,2,2-trinitroethyl-3',3',3'-trinitropropylnitramine",,NNO2,C5H6N8O14,4,1.812,41.2,241,6.2,8.829,347.2,7463,8,6,N(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"N,N'-bis-(2,2,2-trinitroethyl)-N,N'-dinitromethanediamine",,NNO2,C5H6N10O16,10.4,1.843,136.1,275,5.53,8.702,340.7,6881,7,5,N(N(=O)=O)(CC(N(=O)=O)(N(=O)=O)N(=O)=O)CN(N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+"bis-(2,2,2-trinitroethyl)-nitramine",BTNNA,NNO2,C4H4N8O14,16.5,1.873,92,235,4.93,8.525,330,6249,6,5,N(CC(N(=O)=O)(N(=O)=O)N(=O)=O)(N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+Nitromethane,NM,CNO2,CH3NO2,-39.3,1.421,-81.2,48,5.44,7.271,201.1,4880,86,320,C[N+](=O)[O-]
+"bis-(2,2-dinitropropyl)-carbonate",,CNO2,C7H10N4O11,-39.2,1.599,-702.2,186,4.6,7.201,213.7,4402,94,300,O=C(OCC(N(=O)=O)(C)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)C
+"nitroisobutyl-4,4,4-trinitrobutyrate",,CNO2,C8H12N4O10,-59.2,1.535,-505.5,185,4.77,6.92,192.1,4246,128,279,O=C(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(C)(C)N(=O)=O
+"1,3,5,7-Tetranitroadamantane",,CNO2,C10H12N4O8,-91.1,1.681,-245,152,4.58,6.845,199.3,4502,230,240,C12(CC3(CC(C1)(CC(C2)(C3)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"bis-(2,2-dinitropropyl)-oxalate",,CNO2,C8H10N4O12,-40.7,1.612,-807.2,203,4.45,7.109,209.3,4193,119,227,O=C(OCC(N(=O)=O)(C)N(=O)=O)C(=O)OCC(N(=O)=O)(C)N(=O)=O
+"2',2'-dinitropropyl-2,4,6-trinitrobenzoate",,CNO2,C10H7N5O12,-47.3,1.699,-340.7,227,5.01,7.315,229.1,4661,68,214,c1c(c(c(cc1N(=O)=O)N(=O)=O)C(=O)OCC(N(=O)=O)(N(=O)=O)C)N(=O)=O
+"2,2-dinitropropyl-trinitrobutyrate",,CNO2,C7H9N5O12,-29.3,1.661,-489.2,209,5.25,7.695,250,5331,40,151,O=C(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)C
+"2,2,2-trinitroethyl-4,4-dinitrohexanoate",,CNO2,C8H11N5O12,-41.2,1.616,-500.3,216,5.13,7.424,228.6,4974,59,138,N(=O)(=O)C(N(=O)=O)(N(=O)=O)COC(=O)CCC(N(=O)=O)(N(=O)=O)CC
+"5,5,5-trinitropentan-2-one",,CNO2,C5H7N3O7,-47,1.582,-229,136,5.29,7.33,219.8,4939,61,125,N(=O)(=O)C(N(=O)=O)(CCC(=O)C)N(=O)=O
+"ethylene-bis-(4,4,4-trinitrobutyrate)",,CNO2,C10H12N6O16,-33.9,1.664,-795.8,280,4.96,7.519,238.9,4963,59,120,O(CCOC(=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"methylene-bis-(4,4,4-trinitrobutyramide)",,CNO2,C9H12N8O14,-35.1,1.674,-443.4,284,5.04,7.635,247.3,5242,56,113,O=C(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)NCNC(=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O
+N-(2-propyl)-trinitroacetamide,,CNO2,C5H8N4O7,-47.4,1.564,-210.5,146,5.09,7.272,214.7,4813,90,112,O=C(C(N(=O)=O)(N(=O)=O)N(=O)=O)NC(C)C
+"2,2-dinitro-1,3-propane-diol",,CNO2,C3H6N2O6,-28.9,1.712,-431.8,134,4.51,7.74,257.7,5156,118,110,C(C(N(=O)=O)(N(=O)=O)CO)O
+N-(t-butyl)-trinitroacetamide,,CNO2,C6H10N4O7,-64,1.502,-228.9,145,4.91,6.892,187.7,4331,151,110,O=C(C(N(=O)=O)(N(=O)=O)N(=O)=O)NC(C)(C)C
+1-dinitromethyl-3-nitrobenzene,,CNO2,C7H5N3O6,-74,1.61,32.6,138,5.23,6.831,193.1,4118,76,105,c1cc(cc(c1)N(=O)=O)C(N(=O)=O)N(=O)=O
+"2,2-dinitrobutyl-4,4,4-trinitrobutyramide",,CNO2,C8H12N6O11,-47.8,1.598,-324.2,221,5.13,7.36,223.1,4980,69,101,O=C(NCC(CC)([N+](=O)[O-])[N+](=O)[O-])CCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+"ethyl-2,2,2-trinitroethylcarbonate",,CNO2,C5H7N3O9,-28.4,1.634,-585.1,154,4.7,7.429,230.6,4672,82,81,O=C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC
+"3,3,4,4-tetranitrohexane",,CNO2,C6H10N4O8,-54.1,1.536,-103.8,152,5.8,7.376,218.3,5329,60,80,CCC(N(=O)=O)(N(=O)=O)C(N(=O)=O)(CC)N(=O)=O
+"2',2',2'-trinitroethyl-3,5-dinitrobenzoate",,CNO2,C9H5N5O12,-36.3,1.75,-290.4,223,5.23,7.612,252.7,5093,38,73,N(=O)(=O)c1cc(cc(c1)N(=O)=O)C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"2,2-dinitropropyl-4,4,4-trinitrobutyramide",,CNO2,C7H10N6O11,-36.1,1.642,-291.2,214,5.32,7.653,245.4,5400,47,72,O=C(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)NCC(N(=O)=O)(N(=O)=O)C
+"N,N-bis-(2,2-dinitropropyl)-4,4,4-trinitrobutyramide",,CNO2,C10H14N8O15,-39.5,1.627,-311.5,274,5.51,7.632,242.7,5472,46,72,O=C(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(CC(N(=O)=O)(C)N(=O)=O)CC(N(=O)=O)(C)N(=O)=O
+"2,2,2-trinitroethyl-4,4-dinitrovalerate",,CNO2,C7H9N5O12,-29.3,1.661,-440.7,209,5.39,7.744,253.2,5468,40,70,O(CC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)CCC(N(=O)=O)(C)N(=O)=O
+"bis-(2,2,2-trinitroethyl)-4,4-dinitroheptanedioate",,CNO2,C11H12N8O20,-22.2,1.717,-792.4,337,5.34,7.912,269.8,5635,34,68,C(=O)(CCC(N(=O)=O)(N(=O)=O)CCC(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"3,3,9,9-tetranitro-1,5,7,11-tetraoxaspiro-(5.5)-undecane",,CNO2,C7H8N4O12,-28.2,1.784,-721.4,175,4.84,7.871,273.3,5452,79,66,O1CC(COC21OCC(CO2)([N+](=O)[O-])[N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+"bis(2-fluoro-2,2-dinitroethyl)formal",FEFO,CNO2,C5H6N4O10F2,-10,1.774,-775.6,171,5.18,8.247,299.1,6036,42,60,C(OCC([N+](=O)[O-])([N+](=O)[O-])F)OCC([N+](=O)[O-])([N+](=O)[O-])F
+"2,2,4,6,6-pentanitroheptane",,CNO2,C7H11N5O10,-46.7,1.571,-226.8,186,5.54,7.443,225.6,5252,50,56,CC(N(=O)=O)(CC(CC(N(=O)=O)(C)N(=O)=O)N(=O)=O)N(=O)=O
+"2,2-Dinitropropane-1,3-diol-bis-(4,4,4-trinitrobutyrate)",,CNO2,C11H12N8O20,-22.2,1.717,-817.8,337,5.29,7.895,268.7,5587,34,50,O=C(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(COC(=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O)(N(=O)=O)N(=O)=O
+"N,N'-bis-(3,3,3-trinitropropyl)-oxamide",,CNO2,C8H10N8O14,-25.3,1.717,-394,277,5.22,7.91,269.7,5661,41,45,O=C(NCCC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)NCCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"2',2',2'-trinitroethyl-3,5-dinitrosalicylate",,CNO2,C9H5N5O13,-30.7,1.806,-474.9,247,4.98,7.75,267,5210,42,45,c1c(cc(c(c1C(=O)OCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-]
+"4,4,4-trinitrobutyramide",,CNO2,C4H6N4O7,-28.8,1.694,-236.8,149,5.07,7.814,261,5500,50,40,O=C(N)CCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1,1,1,7,7,7-hexanitroheptan-4-one",,CNO2,C7H8N6O13,-20.8,1.718,-228.5,232,5.93,8.167,287.6,6339,21,34,O=C(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1,1,1,3-tetranitrobutane",,CNO2,C4H6N4O8,-20.2,1.664,-100.8,146,6.14,8.168,282,6453,21,33,N(=O)(=O)C(N(=O)=O)(N(=O)=O)C[C@@H](N(=O)=O)C
+"bis-(2,2,2-trinitroethyl)-4,4,6,6,8,8-hexanitro-undecanedioate",,CNO2,C15H16N12O28,-19.7,1.734,-766.9,465,5.71,8.124,286.2,6141,25,32,C(C(N(=O)=O)(N(=O)=O)N(=O)=O)OC(=O)CCC(CC(CC(CCC(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)(N(=O)=O)N(=O)=O)(N(=O)=O)N(=O)=O)(N(=O)=O)N(=O)=O
+"1-(2,2,2-Trinitroethyl)-2,4,6-trinitrobenzene",,CNO2,C8H5N5O10,-41.1,1.732,66.2,197,5.89,7.777,262.1,5713,26,31,c1cc(c(cc1N(=O)=O)N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1-(3,3,3-trinitropropyl)-2,4-dinitrobenzene",,CNO2,C9H7N5O10,-53.3,1.677,17.5,204,5.62,7.44,235.1,5181,42,31,c1cc(c(cc1N(=O)=O)N(=O)=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"bis-(2,2,2-trinitroethyl)-succinate",,CNO2,C8H8N6O16,-14.4,1.746,-675.6,266,5.37,8.064,283.2,5807,31,30,C(CC(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"4,4,4-trinitrobutyric anhydride",,CNO2,C8H8N6O15,-18.7,1.735,-575.2,257,5.37,7.989,276.8,5728,28,30,O(C(=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"N-(trinitropropyl)-3,3,5,5-tetranitro-piperdine",,CNO2,C8H10N8O14,-25.3,1.744,-31,246,6.11,8.317,301,6811,23,29,N1(CC(CC(C1)([N+](=O)[O-])[N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])CCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+"2,2,4,4,6,6-hexanitroheptane",,CNO2,C7H10N6O12,-30.3,1.645,-152.4,209,6.01,7.95,265.2,6123,27,29,CC(N(=O)=O)(CC(N(=O)=O)(CC(N(=O)=O)(C)N(=O)=O)N(=O)=O)N(=O)=O
+"methyl-2,2,2-trinitro-ethyl carbonate",,CNO2,C4H5N3O9,-10,1.706,-550.8,147,4.96,7.881,266.6,5288,46,28,O=C(OC)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+methylene-bis-(trinitroethyl)-carbamate,,CNO2,C7H8N8O16,-7,1.788,-695.7,288,5.09,8.229,299.2,5910,35,27,C(NC(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)NC(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1,5-bis-(trinitroethyl)-biuret",,CNO2,C6H7N9O14,-5.6,1.815,-311.7,278,5.41,8.484,320.9,6503,26,24,N(C(=O)NCC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)NCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"2',2',2'-trinitroethyl-2,4,6-trinitrobenzoate",,CNO2,C8H2N6O14,-11.8,1.872,-175.1,244,5.86,8.412,321.2,6488,15,24,c1c(c(c(cc1N(=O)=O)N(=O)=O)C(=O)OC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O
+"2',2',2'-Trinitroethyl-2,4,6-trinitrobenzoate",,CNO2,C9H4N6O14,-22.8,1.813,-245.7,251,5.59,8.062,289.5,5883,24,24,c1(cc(cc(c1C(=O)OCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+bis-(trinitropropyl)-urea,,CNO2,C7H10N8O13,-23.2,1.712,-224.3,260,5.55,8.09,281.6,6112,33,23,O=C(NCCC(N(=O)=O)(N(=O)=O)N(=O)=O)NCCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1-(3,3,3-trinitropropyl)-2,4,6-trinitrobenzene",,CNO2,C9H6N6O12,-36.9,1.748,39.4,232,5.9,7.904,272.3,5942,26,21,c1c(cc(c(c1N(=O)=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+"bis-(1,1,1-trinitro-2-propyl)-urea",,CNO2,C7H10N8O13,-23.2,1.688,-192.6,251,5.65,8.046,276.1,6068,33,19,C(=O)(NC(C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])C)NC(C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])C
+"N-(2,2,2-trinitroethyl)-3,3,5,5-tetranitro-piperidine",,CNO2,C7H8N8O14,-14.9,1.793,-8.3,240,6.27,8.614,328.4,7304,17,18,N1(CC(CC(C1)([N+](=O)[O-])[N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])CC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+"2,2,2-trinitroethyl-4,4,4-trinitrobutyrate",,CNO2,C6H6N6O14,-4.1,1.784,-395.9,233,5.85,8.484,317.6,6663,16,18,C(=O)(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)CCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"N-trinitroethyl-4,4,4-trinitrobutyramide",,CNO2,C6H7N7O13,-10.4,1.767,-219.2,239,5.86,8.43,311.8,6677,18,18,O=C(CCC(N(=O)=O)(N(=O)=O)N(=O)=O)NCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"2,2,2-trinitroethyl carbamate",,CNO2,C3H4N4O8,0,1.82,-386.3,150,5.03,8.418,316.4,6125,31,18,O(C(=O)N)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+"N,N'-bis-(2,2,2-trinitroethyl)-urea",,CNO2,C5H6N8O13,0,1.822,-187,246,5.85,8.736,341,7109,16,17,O=C(NCC(N(=O)=O)(N(=O)=O)N(=O)=O)NCC(N(=O)=O)(N(=O)=O)N(=O)=O
+bis-(trinitroethoxy)-methane,,CNO2,C5H6N6O14,4.3,1.796,-327.1,225,5.72,8.576,325.9,6737,14,17,C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1,1,1,6,6,6-hexanitro-3-hexene",,CNO2,C6H6N6O12,-13.6,1.736,34.1,212,6.55,8.473,311.6,7076,12,17,C(C/C=C/CC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+"bis-(2,2,2-trinitroethyl)-carbonate",,CNO2,C5H4N6O15,12.4,1.855,-506.6,235,4.4,8.143,299.4,5339,12,16,O=C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+bis-(trinitroethyl)-oxalate,,CNO2,C6H4N6O16,7.7,1.85,-638.5,252,4.7,8.203,303.4,5560,16,15,O=C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"trinitroethyl-2,2-dinitropropylcarbonate",,CNO2,C6H7N5O13,-11.2,1.728,-608.3,211,5.31,8.065,281.4,5760,30,15,O=C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)C
+bis-(trinitroethyl)-fumarate,,CNO2,C8H6N6O16,-10.9,1.765,-585.8,263,5.51,8.133,289.9,5899,25,14,C(=C\C(=O)OCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])/C(=O)OCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+bis-(trinitroethyl)-oxamide,,CNO2,C6H6N8O14,-3.9,1.82,-321.2,263,5.57,8.527,324.7,6619,20,13,O=C(NCC(N(=O)=O)(N(=O)=O)N(=O)=O)C(=O)NCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1-(2,2,2-trinitroethyl)-2,4,6-trinitrobenzene",,CNO2,C8H4N6O12,-25.5,1.804,91.7,225,6.16,8.242,301.7,6519,17,13,N(=O)(=O)c1c(c(cc(c1)N(=O)=O)N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+"methylene-bis-N'N'-(2,2,2-trinitroacetamide)",,CNO2,C5H4N8O14,8,1.883,-210.4,257,4.96,8.503,329.3,6214,14,9,C(NC(=O)C(N(=O)=O)(N(=O)=O)N(=O)=O)NC(=O)C(N(=O)=O)(N(=O)=O)N(=O)=O
+"1,1,1,3,5,5,5-heptanitropentane",,CNO2,C5H5N7O14,6.2,1.825,-42.4,235,5.93,8.723,340.3,7108,8,8,N(=O)(=O)C(N(=O)=O)(N(=O)=O)CC(N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+"1,1,1,6,6,6-Hexanitro-3-hexyne",,CNO2,C6H4N6O12,-9.1,1.772,205.1,219,6.92,8.66,329.5,7499,9,7,C(CC#CCC([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-])([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+"tris-(2,2,2-trinitroethyl)-orthoformate",,CNO2,C7H7N9O21,10.1,1.836,-468.1,325,5.08,8.421,318.3,6138,11,7,O(C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+"tetrakis-(2,2,2-trinitroethyl)-orthocarbonate",,CNO2,C9H8N12O28,13.1,1.862,-627.4,421,4.73,8.339,314.7,5821,10,7,O(C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)CC(N(=O)=O)(N(=O)=O)N(=O)=O
+trinitroethyl-bis-(trinitroethoxy)-acetate,,CNO2,C8H7N9O22,6.9,1.834,-625.3,342,5.21,8.427,318.6,6202,13,6,O=C(C(OCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O)OCC(N(=O)=O)(N(=O)=O)N(=O)=O
+"4-picrylamino-1,2,4-triazole",,5mArN,C8H5N7O6,-67.8,1.697,474.4,177,5.39,7.256,225.3,4981,281,314,c1n(cnn1)Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+2-Nitro-1-picryl-imidazole,,5mArN,C9H4N6O8,-59.2,1.756,232.2,196,5.24,7.343,235.6,4864,108,312,c1nc([nH]c1c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"3-nitro-1,2,4-triazol-5-one",NTO,5mArN,C2H2N4O3,-24.6,1.892,-11.2,99,4.04,7.961,289.5,5183,269,291,[nH]1c(=O)[nH]nc1[N+](=O)[O-]
+"3,5-dinitro-1-methyl-4-picrylaminopyrazole",,5mArN,C10H6N8O10,-52.2,1.746,291.6,233,5.43,7.563,249.1,5344,107,274,c1(c(c(n(n1)C)[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"3,5-bispicrylamino-1,2,4-triazole",,5mArN,C14H7N11O12,-59.9,1.769,417.3,317,5.02,7.351,237.2,4890,132,240,c1(nc([nH]n1)Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"3-amino-5-picrylamino-1,2,4-triazole",,5mArN,C8H6N8O6,-67.1,1.747,320.8,202,4.63,7.209,226.4,4730,425,230,c1(nc([nH]n1)Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])N
+"2-picryl-1,2,3-triazole",,5mArN,C8H4N6O6,-68.5,1.701,396.4,162,5.37,7.166,220,4714,180,200,c1(cc(c(c(c1)[N+](=O)[O-])n1nccn1)[N+](=O)[O-])[N+](=O)[O-]
+ANTA-NQ,ANTA-NQ,5mArN,C3H4N8O4,-29.6,1.866,290.9,150,4.71,8.256,308.9,6099,145,188,n1c(nn(c1N)/C(=N/[N+](=O)[O-])/N)[N+](=O)[O-]
+4-nitro-1-picrylimidazole,,5mArN,C9H4N6O8,-59.2,1.756,224.9,196,5.22,7.336,235.2,4844,105,161,c1(nc[nH]c1c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1-Amino-3,5-dinitropyrazole",DNPA,5mArN,C3H3N5O4,-32.4,1.811,297.7,114,6,8.423,315.9,7099,186,158,c1c(nn(c1[N+](=O)[O-])N)[N+](=O)[O-]
+"4-methyl-3,5-dinitro-1,2,4-triazole",,5mArN,C3H3N5O4,-32.4,1.726,258.2,106,5.82,8.082,282.5,6333,101,155,c1(n(c(nn1)[N+](=O)[O-])C)[N+](=O)[O-]
+"1-Methyl-3,5-dinitro-1,2,4-triazole",,5mArN,C3H3N5O4,-32.4,1.726,212.9,106,5.56,7.991,276.1,6050,101,155,n1(nc(nc1[N+](=O)[O-])[N+](=O)[O-])C
+"5,5'-dinitro-3,3'-bi-1,2,4-triazole",,5mArN,C4H2N8O4,-35.4,1.89,425.2,150,4.9,8.115,300.6,5999,224,153,c1([nH]nc(n1)[N+](=O)[O-])c1[nH]nc(n1)[N+](=O)[O-]
+4-Nitro-1-picryl-3-picrylaminopyrazole,,5mArN,C15H6N10O14,-55.2,1.776,416.4,318,5.43,7.49,246.9,5124,82,149,c1(c(cn(n1)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"N,N'-dipicryl-5,5'-dinitro-3,3'-bi-1,2,4-triazole",,5mArN,C16H4N14O16,-44.4,1.836,751.4,366,5.59,7.831,275.3,5692,52,138,c1(c2nc(n(n2)c2c(cc(cc2[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])nc(n(n1)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"5,7-Diamino-4,6-dinitrobenzofuroxan",CL-14,5mArN,C6H4N6O6,-50,1.915,232.2,166,5.22,8.085,300.7,6304,168,120,c1(c(c(c(c2c1no[n+]2[O-])N)[N+](=O)[O-])N)[N+](=O)[O-]
+3-amino-4-picrylaminofurazan,,5mArN,C8H5N7O7,-59.1,1.771,330.8,196,5.22,7.513,248,5316,119,120,o1nc(c(n1)Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])N
+"3,5-dinitro-1-methyl-4-picrylpyrazole",,5mArN,C10H5N7O10,-52.2,1.751,267.9,219,5.56,7.555,249,5301,79,118,c1c(cc(c(c1[N+](=O)[O-])c1c(nn(c1[N+](=O)[O-])C)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+4-nitro-1-picrylpyrazole,,5mArN,C9H4N6O8,-59.2,1.735,314.7,187,5.53,7.379,236.2,4994,105,112,c1(c(c(cc(c1)[N+](=O)[O-])[N+](=O)[O-])n1ncc(c1)[N+](=O)[O-])[N+](=O)[O-]
+"2,4-dinitroimidazole",,5mArN,C3H2N4O4,-30.4,1.801,121.2,107,5.35,8.043,287.1,5984,91,105,c1(nc([nH]c1)[N+](=O)[O-])[N+](=O)[O-]
+"7-Amino-4,6-dinitrobenzofuroxan",ADNBF,5mArN,C6H3N5O6,-49.8,1.877,243.1,150,5.56,7.994,290.6,6202,98,100,c1(cc(c(c2c1no[n+]2[O-])N)[N+](=O)[O-])[N+](=O)[O-]
+"4-(2,4-dinitrobenzyl)-3,5-dinitro-1,2,4-triazole",,5mArN,C9H5N7O8,-59,1.724,355.6,198,5.44,7.4,236.6,5098,112,96,c1(n(c(nn1)[N+](=O)[O-])Cc1c(cc(cc1)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"3,5-bis-(picrylamino)-1,2,4-oxadiazole",,5mArN,C14H6N10O13,-55.1,1.783,280.2,311,5.1,7.421,242.9,4930,70,95,o1nc(nc1Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,6-Dipicrylbenzo-[1,2-d:4,5-d']-bistriazole-4,8-dione",,5mArN,C18H4N12O14,-62.7,1.828,620.6,335,5.11,7.332,240.6,4724,146,95,c1(=O)c2c(c(=O)c3c1nn(n3)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])nn(n2)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1,3,7,9-Tetranitrodibenzo-1,3a,4,6a-tetrazapentalene",,5mArN,C12H4N8O8,-74.2,1.791,616.3,210,5.33,7.223,230.8,4786,159,85,n12[n-]c3c([n+]1nc1c2cc(cc1[N+](=O)[O-])[N+](=O)[O-])cc(cc3[N+](=O)[O-])[N+](=O)[O-]
+"4,6-Dinitrobenzofuroxan",DNBF,5mArN,C6H2N4O6,-49.5,1.838,281.6,133,6.08,7.929,282.3,6111,56,76,c1(cc(cc2c1no[n+]2[O-])[N+](=O)[O-])[N+](=O)[O-]
+"3,4-bis-(picrylamino)-furazan",,5mArN,C14H6N10O13,-55.1,1.783,424.5,311,5.37,7.52,249.4,5199,70,71,o1nc(c(n1)Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,4,5-Trinitroimidazole",,5mArN,C3HN5O6,-3.9,1.939,160.3,135,6.05,8.961,372,7658,25,68,c1(nc([nH]c1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"3-nitro-1-picryl-1,2,4-triazole",,5mArN,C8H3N7O8,-46.7,1.786,365.3,191,5.58,7.712,262.6,5532,63,68,c1(ncn(n1)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+3-nitro-4-picrylaminofurazan,,5mArN,C8H3N7O9,-39.9,1.824,332.5,208,5.75,7.968,283.8,6010,37,60,o1nc(c(n1)Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"7-Amino-4,5,6-trinitrobenzofuroxan (107140-65-8)",CL-17,5mArN,C6H2N6O8,-28,1.969,319.1,178,6.15,8.713,354.8,7559,37,56,c1(c(c(c(c2c1no[n+]2[O-])N)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+8-Amino-7-nitrobenzobisfuroxan (1423364-70-8),CL-18,5mArN,C6H2N6O6,-44.1,2.019,457.8,150,6.04,8.624,352.4,7607,98,56,c12c(c(c(c3c1no[n+]3[O-])N)[N+](=O)[O-])no[n+]2[O-]
+"1,4-Dinitroimidazole",19182-81-1,5mArN,C3H2N4O4,-30.4,1.75,208.2,98,5.96,8.098,286,6324,28,55,n1c(cn(c1)[N+](=O)[O-])[N+](=O)[O-]
+benzotrifuroxan,BTF,5mArN,C6N6O6,-38.1,2.106,668.9,134,6.8,9.06,398,8734,56,50,c12c3c(c4c(c1[n+](on2)[O-])no[n+]4[O-])no[n+]3[O-]
+"1-Methyl-2,4,5-trinitroimidazole",,5mArN,C4H3N5O6,-25.8,1.775,166.4,131,5.91,8.224,297.5,6495,57,49,c1(c(nc(n1C)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,4-dinitro-1-picryl-imidazole",,5mArN,C9H3N7O10,-41.2,1.83,230.5,224,5.53,7.85,276.1,5681,50,46,c1(nc([nH]c1c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"4,4',5,5'-tetranitrobiimidazole",,5mArN,C6H2N8O8,-25.5,1.913,330.4,198,5.57,8.416,325.6,6670,62,37,c1(nc([nH]c1[N+](=O)[O-])c1[nH]c(c(n1)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"4-(2-nitroethyl)-3,5-dinitro-1,2,4-triazole",,5mArN,C4H4N6O6,-27.6,1.754,228.1,144,5.84,8.21,294.4,6509,57,35,c1(n(c(nn1)[N+](=O)[O-])CC[N+](=O)[O-])[N+](=O)[O-]
+"3,4-Bis(4-nitro-1,2,5-oxadiazol-3-yl)-1,2,5-oxadiazole-2-oxide",DNTF,5mArN,C6N8O8,-20.5,1.964,707.1,179,6.73,8.915,370.9,8090,15,31,o1nc(c(n1)c1[n+](onc1c1c(non1)[N+](=O)[O-])[O-])[N+](=O)[O-]
+"3,5-dinitroisoxazole",,5mArN,C3HN3O5,-15.1,1.841,107.4,101,6.36,8.528,327,7028,46,29,o1c(cc(n1)[N+](=O)[O-])[N+](=O)[O-]
+3-amino-4-nitrofurazan,,5mArN,C2H2N4O3,-24.6,1.888,210.5,93,5.79,8.699,345.2,7408,29,27,o1nc(c(n1)N)[N+](=O)[O-]
+"Compound (24) in PEP 19,249 (1994)",,5mArN,C22H18N18O29,-38.5,1.76,208.3,583,5.75,7.956,277,6082,33,27,o1c(nnc1c1c(c(c(c(c1[N+](=O)[O-])NCCO[N+](=O)[O-])[N+](=O)[O-])N(CCO[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(c(c(c(c1[N+](=O)[O-])N(CCO[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])NCCO[N+](=O)[O-])[N+](=O)[O-]
+"2,5-dipicryl-1,3,4-oxadiazole",,5mArN,C14H4N8O13,-55.3,1.793,274.4,283,5.36,7.425,244,4872,43,20,o1c(nnc1c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"4,4'-dinitro-3,3'-bifurazan",,5mArN,C4N6O6,-14,1.937,481.7,139,6.68,8.924,368.7,7992,10,13,o1nc(c(n1)[N+](=O)[O-])c1c(non1)[N+](=O)[O-]
+"Compound (23) in PEP 19,249 (1994)",,5mArN,C18H12N12O19,-52.5,1.744,157.7,413,5.36,7.534,247,5273,59,13,o1c(nnc1c1c(cc(c(c1[N+](=O)[O-])NCCO[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(c(c(cc1[N+](=O)[O-])[N+](=O)[O-])NCCO[N+](=O)[O-])[N+](=O)[O-]
+"1,3,5-Triamino-2,4,6-trinitrobenzene",TATB,NAC,C6H6N6O6,-55.8,1.807,7.4,182,4.42,7.507,250.6,5048,285,490,N(=O)(=O)c1c(c(c(c(c1N)N(=O)=O)N)N(=O)=O)N
+"1,3-diamino-2,4,6-trinitrobenzene",DATB,NAC,C6H5N5O6,-55.9,1.774,2.3,165,4.65,7.419,242,4951,173,320,N(=O)(=O)c1cc(c(c(c1N)N(=O)=O)N)N(=O)=O
+"1,4-dipicrylpyrazole",,NAC,C15H6N8O12,-68.5,1.731,429.9,275,5.41,7.151,221.5,4553,112,314,c1c(cn(n1)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+1-picrylimidazole,,NAC,C9H5N5O6,-83.1,1.647,290.8,158,5.11,6.735,190.5,3982,312,314,c1(c(c(cc(c1)[N+](=O)[O-])[N+](=O)[O-])n1ccnc1)[N+](=O)[O-]
+"2,4-dinitroresorcinol",,NAC,C6H4N2O6,-64,1.779,-291.2,152,4.14,6.964,213.6,3999,293,296,c1c(c(c(c(c1)N(=O)=O)O)N(=O)=O)O
+"1,3-Dimethoxy-2,4,6-trinitrobenzene",,NAC,C8H7N3O8,-67.4,1.615,-206.6,158,5,6.908,197.9,4213,258,251,N(=O)(=O)c1c(c(cc(c1OC)N(=O)=O)N(=O)=O)OC
+"1-Methyl-3,5-diamino-2,4,6-trinitrobenzene",,NAC,C7H7N5O6,-71.6,1.686,23,170,4.63,7.047,211.6,4542,313,239,N(=O)(=O)c1c(c(c(c(c1N)N(=O)=O)N)N(=O)=O)C
+"5-nitro-2,4,6-tris-(picrylamino)-pyrimidine",,NAC,C22H9N15O20,-56.8,1.787,430.6,478,5.09,7.393,241.4,4881,94,201,c1(nc(nc(c1[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1cc(cc(c1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,4,6-trinitroanisole",,NAC,C7H5N3O7,-62.5,1.655,-80.6,146,5.19,7.076,210.9,4442,130,192,O(c1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O)C
+"2,6-bis-(picrylamino)-pyridine",,NAC,C17H9N9O12,-79.8,1.689,311,314,4.82,6.771,195.6,3950,225,192,n1c(cccc1Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,4,6-trinitro-m-cresol",,NAC,C7H5N3O7,-62.5,1.712,-166,161,4.78,7.095,216.6,4401,134,191,N(=O)(=O)c1c(c(cc(c1C)N(=O)=O)N(=O)=O)O
+"1-Ethoxy-2,4,6-trinitrobenzene",,NAC,C8H7N3O7,-77.8,1.591,-120,152,4.91,6.698,184.2,3945,245,190,N(=O)(=O)c1c(c(cc(c1)N(=O)=O)N(=O)=O)OCC
+"2,4,6-trinitroaniline",TNA,NAC,C6H4N4O6,-56.1,1.742,14.5,149,4.98,7.353,235.1,4870,101,177,c1(cc(c(c(c1)N(=O)=O)N)N(=O)=O)N(=O)=O
+3-Amino-trinitrotoluene,,NAC,C7H6N4O6,-72.7,1.658,17.2,153,4.87,6.959,204.2,4396,199,174,c1(c(cc(c(c1[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-])C
+"3-Methyl-2,4,6-trinitroaniline",,NAC,C7H6N4O6,-72.7,1.658,17.2,153,4.87,6.959,204.2,4396,199,174,c1(c(cc(c(c1[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-])C
+"2,4,6-trinitrotoluene","2,4,6-TNT",NAC,C7H5N3O6,-74,1.629,24.3,137,5.2,6.874,197,4204,121,160,N(=O)(=O)c1cc(c(c(c1)N(=O)=O)C)N(=O)=O
+"3-methyl-2,2',4,4',6,-pentanitrobiphenyl",,NAC,C13H7N5O10,-79.3,1.667,154.3,226,5.22,6.816,196.6,4027,124,143,N(=O)(=O)c1c(c(cc(c1)N(=O)=O)N(=O)=O)c1c(c(c(cc1)N(=O)=O)C)N(=O)=O
+"2,4,6-trinitrobenzonitrile",,NAC,C7H2N4O6,-60.5,1.719,239.9,157,5.5,7.19,223,4452,77,140,c1(c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C#N
+"2,4,6-trinitro-3-aminophenol",,NAC,C6H4N4O7,-45.9,1.835,-159.3,173,4.65,7.608,259.7,5089,115,138,Nc1c(cc(c(c1N(=O)=O)O)N(=O)=O)N(=O)=O
+"3,3'-dimethyl-2,2',4,4',6,6'-hexanitrobiphenyl",,NAC,C14H8N6O12,-70.8,1.688,142.5,258,5.36,7.058,212.4,4470,96,135,Cc1c(cc(c(c1N(=O)=O)c1c(c(c(cc1N(=O)=O)N(=O)=O)C)N(=O)=O)N(=O)=O)N(=O)=O
+"3,3'-Diamino-2,2',4,4',6,6'-hexanitrobiphenyl",DIPAM,NAC,C12H6N8O12,-52.8,1.812,149.2,283,5.2,7.596,256.9,5294,79,132,c1(cc(c(c(c1c1c(cc(c(c1[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-]
+"3,3'-diamino-2,2',4,4',6,6'-hexanitrobiphenyl",DIPAM,NAC,C12H7N9O12,-52.9,1.806,162.1,297,5.08,7.592,256.2,5295,100,132,N(c1c(c(c(cc1N(=O)=O)N(=O)=O)N)N(=O)=O)c1c(cc(c(c1N(=O)=O)N)N(=O)=O)N(=O)=O
+"1-hydroxy-3,5-diamino-2,4,6-trinitrobenzene",,NAC,C6H5N5O7,-46.3,1.867,-168.6,189,4.37,7.672,266.8,5137,192,120,Oc1c(c(c(c(c1N(=O)=O)N)N(=O)=O)N)N(=O)=O
+"2,2',4,4',6,6'-hexanitrobibenzyl",,NAC,C14H8N6O12,-70.8,1.688,116.9,264,5.29,7.035,211.1,4413,96,114,C(c1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O)Cc1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O
+Trinitromesitylene,,NAC,C9H9N3O6,-103.5,1.512,-11.2,145,4.81,6.22,153.6,3463,431,110,c1(c(c(c(c(c1[N+](=O)[O-])C)[N+](=O)[O-])C)[N+](=O)[O-])C
+"2,4,6-trinitrobenzoic acid",,NAC,C7H3N3O8,-46.7,1.801,-293.2,174,4.57,7.3,236.5,4396,92,109,N(=O)(=O)c1c(c(cc(c1)N(=O)=O)N(=O)=O)C(=O)O
+"3,4,5-Trinitrotoluene","3,4,5-TNT",NAC,C7H5N3O6,-74,1.629,61.4,137,5.36,6.927,200.1,4336,121,107,c1(cc(c(c(c1)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+"1-Picryl-2-picrylamino-1,2-dihydropyrimidine",,NAC,C16H9N9O12,-75.5,1.69,453.2,292,5.25,6.998,209,4440,200,106,N1(C=CC=NC1Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1,3,5-trinitrobenzene",TNB,NAC,C6H3N3O6,-56.3,1.709,31.5,133,5.38,7.274,227.4,4688,57,100,c1(cc(cc(c1)N(=O)=O)N(=O)=O)N(=O)=O
+"1,4,5,8-tetranitronaphthalene",,NAC,C10H4N4O8,-72.7,1.728,188.6,182,5.42,7.053,215.3,4342,86,100,c1(ccc(c2c1c(ccc2[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+Trinitroxylene,,NAC,C8H7N3O6,-89.6,1.565,7.4,141,4.99,6.524,172.9,3796,237,100,c1(c(cc(c(c1[N+](=O)[O-])C)[N+](=O)[O-])[N+](=O)[O-])C
+"3,5-bis-(picrylamino)-2,6-dinitropyridine",,NAC,C17H7N11O16,-55.4,1.781,359.8,371,5.3,7.461,245.3,5038,78,92,n1c(c(cc(c1[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"4,6-Dinitro-1-picryl-benzotriazole",,NAC,C13H5N7O10,-70.6,1.744,317.1,236,5.16,7.069,217.5,4367,127,91,c1(cc(cc2c1ncn2c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"Methyl-2,4,6-trinitrobenzoate",,NAC,C8H5N3O8,-62,1.667,-287.5,163,4.56,6.833,197.6,3808,176,90,C(=O)(c1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O)OC
+"1,3,5-êtrinitro-2,4,6-êtripicryl benzene (BRX)",,NAC,C24H6N12O24,-51,1.816,462.8,484,5.71,7.623,259.1,5251,37,89,c1(c(c(c(c(c1c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+picric acid,PA,NAC,C6H3N3O7,-45.4,1.802,-146.5,157,4.98,7.532,251.9,4967,67,87,N(=O)(=O)c1c(c(cc(c1)N(=O)=O)N(=O)=O)O
+"2,2',4,4',6,6'-hexanitrobiphenyl",HNBP,NAC,C12H4N6O12,-52.8,1.779,170.1,250,5.59,7.5,247.8,5047,43,85,N(=O)(=O)c1c(c(cc(c1)N(=O)=O)N(=O)=O)c1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O
+Tripicryl-s-triazine,,NAC,C21H6N12O18,-60.5,1.787,514.9,412,5.29,7.316,236.4,4702,77,85,n1c(nc(nc1c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,4,6-Trinitro-1-chlorobenzene",,NAC,C6H2N3O6Cl,-42,1.807,60.5,140,4.91,7.404,243.8,4507,54,79,N(=O)(=O)c1cc(c(c(c1)N(=O)=O)Cl)N(=O)=O
+"2,4,6-Trinitro-acetylbenzene",,NAC,C8H5N3O7,-72.1,1.645,-89.6,154,4.88,6.774,192.5,3866,164,79,c1c(c(c(cc1N(=O)=O)N(=O)=O)C(=O)C)N(=O)=O
+"3,5-dimethyl-2,4,6-trinitrophenol",,NAC,C8H7N3O7,-77.8,1.639,-169.8,165,4.67,6.747,190.6,4005,245,77,Oc1c(c(c(c(c1N(=O)=O)C)N(=O)=O)C)N(=O)=O
+"1-Methoxy-3,5-dichloro-2,4,6-trinitrobenzene",,NAC,C7H3N3O7Cl2,-38.5,1.819,-63.1,159,4.37,7.253,234.8,4071,121,75,N(=O)(=O)c1c(c(c(c(c1Cl)N(=O)=O)OC)N(=O)=O)Cl
+"2-(2,4,6-Trinitrobenzene) ethanol",,NAC,C8H7N3O7,-77.8,1.639,-145.5,170,4.74,6.774,192.1,4068,155,68,N(=O)(=O)c1c(c(cc(c1)N(=O)=O)N(=O)=O)CCO
+"2,6-bis-(picrylamino)-3,5-dinitropyridine",,NAC,C17H7N11O16,-55.4,1.781,320.6,371,5.24,7.438,243.9,4978,78,63,n1c(c(cc(c1Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,2"",4,4',4"",6,6',6""-octanitro-m-terphenyl",,NAC,C18H6N8O16,-62.3,1.762,279.3,339,5.46,7.267,231.3,4631,57,63,c1c(c(cc(c1[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"3,6-bis-(pricrylamino)-s-tetrazine",,NAC,C14H6N12O12,-56.9,1.783,663.9,327,5.3,7.507,248.6,5213,163,61,c1(nnc(nn1)Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])Nc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,2',2"",4,4"",6,6',6""-octanitro-p-terphenyl",,NAC,C18H6N8O16,-62.3,1.762,289.9,339,5.48,7.274,231.7,4647,57,59,c1(cc(cc(c1c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,4,6,2',2"",4"",6""-heptanitro-4',6'-diaza-m-terphenyl",,NAC,C16H5N9O14,-59.9,1.776,392.6,319,5.37,7.334,236.7,4761,73,58,c1nc(c(c(n1)c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,4,6,4',2"",4"",6""-heptanitro-2',6'-diaza-m-terphenyl",,NAC,C16H5N9O14,-59.9,1.776,374.1,319,5.34,7.322,235.9,4731,73,58,c1nc(nc(c1[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"3,3',5,5'-tetranitro-2,2'-azopyridine",,NAC,C10H4N8O8,-61.5,1.731,534.9,221,5.43,7.317,231.9,4890,185,56,N(=N\c1ncc(cc1[N+](=O)[O-])[N+](=O)[O-])/c1ncc(cc1[N+](=O)[O-])[N+](=O)[O-]
+"2,3,4-Trinitrotoluene","2,3,4-TNT",NAC,C7H5N3O6,-74,1.629,67,137,5.39,6.936,200.6,4357,121,56,c1(ccc(c(c1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+"2,2',4,4',6,-pentanitrobenzophenone",,NAC,C13H5N5O11,-68.8,1.719,54.1,239,5.14,6.968,209.4,4059,97,54,O=C(c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1ccc(cc1[N+](=O)[O-])[N+](=O)[O-]
+"3-methyl-2,2',4,4',6,6'-hexanitrobiphenyl",,NAC,C13H6N6O12,-62.1,1.731,153.9,254,5.47,7.267,228.8,4736,65,53,c1(c2c(c(c(cc2N(=O)=O)N(=O)=O)C)N(=O)=O)c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O
+"2,4,6-Trinitrobenzyl alcohol",,NAC,C7H5N3O7,-62.5,1.712,-116.9,164,4.97,7.164,220.8,4575,75,52,c1c(cc(c(c1[N+](=O)[O-])CO)[N+](=O)[O-])[N+](=O)[O-]
+"2,4,6-Trinitrobenzylalcohol",,NAC,C7H5N3O7,-62.5,1.712,-116.9,164,4.97,7.164,220.8,4575,130,52,c1c(cc(c(c1[N+](=O)[O-])CO)[N+](=O)[O-])[N+](=O)[O-]
+"2,2',4,4',6,6'-hexanitrobiphenylamine",,NAC,C12H5N7O12,-52.8,1.772,189.2,264,5.46,7.506,247.6,5116,57,48,N(=O)(=O)c1c(c(cc(c1)N(=O)=O)N(=O)=O)Nc1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O
+"4-Amino-2,3,5,6-tetranitrotoluene",TetN-p-Tol,NAC,C7H5N5O8,-47.4,1.763,81.8,182,5.53,7.736,262.2,5671,69,47,c1(c(c(c(c(c1[N+](=O)[O-])[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-])C
+"2,4,6-Trinitrobenzyl chloride",,NAC,C7H4N3O6Cl,-58.1,1.724,13.6,147,4.62,6.975,210.2,3947,75,44,C(c1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O)Cl
+"2,4,6-trinitroresorcinol",,NAC,C6H3N3O8,-35.9,1.897,-315.2,181,4.67,7.8,278.3,5240,76,43,c1c(c(c(c(c1N(=O)=O)O)N(=O)=O)O)N(=O)=O
+"3-hydroxy-2,2',4,4',6,6'-hexanitrobiphenyl",,NAC,C12H4N6O13,-47.3,1.828,-1.9,274,5.39,7.646,261.7,5239,47,42,N(=O)(=O)c1c(c(c(c(c1)N(=O)=O)O)N(=O)=O)c1c(cc(cc1N(=O)=O)N(=O)=O)N(=O)=O
+"2,4,6-trinitrobenzaldoxime",,NAC,C7H4N4O7,-56.2,1.731,115,172,5.51,7.438,239.6,5113,132,42,c1(cc(cc(c1/C=N/O)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,3,4,6-tetranitroaniline",TetNA,NAC,C6H3N5O8,-32.2,1.848,86.1,178,5.67,8.15,299.3,6274,37,41,N(=O)(=O)c1c(c(c(c(c1)N(=O)=O)N(=O)=O)N(=O)=O)N
+"3,3'-dihydroxy-2,2',4,4',6,6'-hexanitrobiphenyl",,NAC,C12H4N6O14,-42.1,1.877,-173.4,298,5.2,7.789,275.8,5411,52,40,N(=O)(=O)c1cc(c(c(c1O)N(=O)=O)c1c(c(c(cc1N(=O)=O)N(=O)=O)O)N(=O)=O)N(=O)=O
+"azo-bis-2,2',4,4',6,6'-hexanitrobiphenyl",,NAC,C24H6N14O24,-49.4,1.814,714.6,504,5.8,7.692,263.7,5430,44,40,N(=N\c1c(c(c(cc1[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])/c1c(c(c(cc1[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+dodecanitroquaterphenyl,,NAC,C24H6N12O24,-51,1.816,451,484,5.7,7.618,258.8,5238,37,40,c1(cc(c(c(c1c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(c(c(cc1[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,2',2"",4,4"",5',6,6""-octanitro-p-terphenyl",,NAC,C18H6N8O16,-62.3,1.762,279.6,339,5.46,7.268,231.3,4632,57,40,c1c(c(cc(c1c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,2',2"",4,4',4"",6,6',6""-nonanitro-m-terphenyl",,NAC,C18H5N9O18,-51.6,1.804,309.7,367,5.66,7.58,255.2,5176,39,39,c1c(c(c(c(c1[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,2',4,4',6,6'-Hexanitrodiphenylmethane",HNDPM,NAC,C13H6N6O12,-62.1,1.731,153.6,257,5.46,7.265,228.6,4730,65,39,C(c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+hexanitrostilbene,HNS,NAC,C14H6N6O12,-67.5,1.705,247.5,261,5.51,7.11,216.9,4439,75,39,c1(cc(cc(c1/C=C/c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"3-Amino-2,4,5,6-tetranitrotoluene",TetN-m-Tol,NAC,C7H5N5O8,-47.4,1.763,83.8,182,5.53,7.738,262.3,5678,69,37,c1(c(c(c(c(c1[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+"2,2,4,4,6,6-Hexanitroazobenzene",,NAC,C12H4N8O12,-49.5,1.777,450.3,270,5.82,7.659,258.2,5444,58,37,N(=N\c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])/c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2-Amino-3,4,5,6-tetranitrotoluene",TetN-o-Tol,NAC,C7H5N5O8,-47.4,1.763,98.1,182,5.58,7.755,263.5,5728,69,36,c1(c(c(c(c(c1N)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+"2,4,6-trinitrobenzaldehyde",,NAC,C7H3N3O7,-56.4,1.717,-37.2,150,5.22,7.183,222.4,4407,82,36,c1(cc(cc(c1C=O)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,6-bis-(picrylazo)-3,5-dinitropyridine",,NAC,C17H5N13O16,-50.7,1.787,865.9,382,5.79,7.668,259.7,5481,80,33,n1c(c(cc(c1/N=N/c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])/N=N/c1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"2,4,6-Trinitrostyrene",,NAC,C8H5N3O6,-83.6,1.598,149.9,141,5.45,6.691,184.3,3900,155,32,c1(cc(cc(c1C=C)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+"1,2,4,5-tetranitrobenzene",TetNB,NAC,C6H2N4O8,-31,1.817,111,161,6.08,8.097,292.5,6189,23,27,N(=O)(=O)c1cc(c(cc1N(=O)=O)N(=O)=O)N(=O)=O
+"2,4,6-trinitrophloroglucinol",,NAC,C6H3N3O9,-27.6,1.992,-500.6,204,4.34,8.028,303.1,5386,82,27,N(=O)(=O)c1c(c(c(c(c1O)N(=O)=O)O)N(=O)=O)O
+"2,3,5,6-Tetranitrotoluene","2,3,5,6-TetNT",NAC,C7H4N4O8,-47,1.737,78.7,165,5.8,7.66,254.7,5505,45,25,c1(c(c(cc(c1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+"4,4'-Diamino-2,2',3,3',4,4',5,5',6,6'-octanitrobiphenyl",CL-12,NAC,C12H4N10O16,-29.4,1.915,314.3,340,5.9,8.401,324.6,6788,30,20,c1(c(c(c(c(c1c1c(c(c(c(c1[N+](=O)[O-])[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-]
+"2,4,6-trinitropyridine-1-oxide",,NAC,C5H2N4O7,-27.8,1.84,175.1,144,6.32,8.348,313.2,6818,49,20,[n+]1(c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[O-]
+"2,3,4,6-Tetranitrotoluene","2,3,4,6-TetNT",NAC,C7H4N4O8,-47,1.737,84.9,165,5.82,7.667,255.2,5526,45,19,c1(c(cc(c(c1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+Pentanitrotoluene,PNT,NAC,C7H3N5O10,-27.7,1.822,143.7,194,6.26,8.268,305.4,6615,23,18,c1(c(c(c(c(c1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+pentanitroaniline,PNA,NAC,C6H2N6O10,-15.1,1.932,159.6,206,6.18,8.762,354.9,7454,19,15,Nc1c(c(c(c(c1N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+"2,3,4,5-Tetranitrotoluene","2,3,4,5-TetNT",NAC,C7H4N4O8,-47,1.737,96.6,165,5.87,7.682,256.2,5568,45,15,c1(cc(c(c(c1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])C
+hexanitrobenzene,HNB,NAC,C6N6O12,0,1.971,235.6,218,6.83,9.172,393.3,8321,8,12,N(=O)(=O)c1c(c(c(c(c1N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O)N(=O)=O
+Pentanitrobenzene,PNB,NAC,C6HN5O10,-13.2,1.902,168.5,190,6.49,8.692,346.1,7333,12,11,c1c(c(c(c(c1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
