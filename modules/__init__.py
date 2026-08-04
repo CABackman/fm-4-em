@@ -10,8 +10,6 @@ from .basicmlp import VanillaMLP, fit_mlp_with_fixed_split
 from .mlp_tuning import tune_mlp_with_fixed_split
 from .linreg import fit_linear_model_with_fixed_split
 from .random_forest import fit_random_forest_with_fixed_split
-from .tabpfn import fit_tabpfn_with_fixed_split
-from .umap_plotter import generate_UMAP, pca_project
 from .load_results import load_results
 
 # Splitting / similarity utilities
@@ -44,11 +42,6 @@ __all__ = [
     "tune_mlp_with_fixed_split",
     "fit_linear_model_with_fixed_split",
     "fit_random_forest_with_fixed_split",
-    "fit_tabfm_with_fixed_split",
-
-    # Visualization / projection
-    "generate_UMAP",
-    "pca_project",
 
     # Splitting / similarity utilities
     "SimilaritySummary",
