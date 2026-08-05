@@ -82,7 +82,7 @@ mkdir -p output_files
 . /etc/profile.d/modules.sh
 module load anaconda
 eval "$(conda shell.bash hook)"
-conda activate /exports/eddie/scratch/s1948145/anaconda/envs/chem
+conda activate chem
 
 echo "Hostname: $(hostname)"
 echo "Working directory: $(pwd)"
