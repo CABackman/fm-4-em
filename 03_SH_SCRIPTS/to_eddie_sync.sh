@@ -10,6 +10,7 @@ SRC_DIRS=(
   "02_EMBEDDINGS"
   "03_SH_SCRIPTS"
   "05_PY_SCRIPTS"
+  "08_CLASSIFICATION"
   "modules"
 )
 
@@ -33,5 +34,4 @@ ssh "${REMOTE_USERHOST}" "mkdir -p '${REMOTE_BASE}'"
 for d in "${SRC_DIRS[@]}"; do
   rsync "${RSYNC_OPTS[@]}" "${d}/" "${REMOTE_USERHOST}:${REMOTE_BASE}/${d}/"
 done
-
 echo "Done syncing to ${REMOTE_USERHOST}:${REMOTE_BASE}"
