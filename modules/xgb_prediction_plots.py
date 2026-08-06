@@ -139,6 +139,7 @@ def plot_residual_grid(
             ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=12)
             ax.set_xlim(x_min, x_max)
             ax.set_ylim(y_min, y_max)
+            ax.set_box_aspect(1)
             ax.tick_params(labelsize=10)
             ax.set_xlabel(_axis_label("True value", dataset), fontsize=11)
             if col == 0:
@@ -245,10 +246,7 @@ def plot_parity_grid(
             ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=12)
             ax.set_xlim(lim_min, lim_max)
             ax.set_ylim(lim_min, lim_max)
-            # Let each panel fill the subplot slot.  An equal data aspect forces
-            # the axes to remain square, so increasing ``figsize`` only adds
-            # surrounding whitespace instead of making the panels wider.
-            ax.set_aspect("auto")
+            ax.set_box_aspect(1)
             ax.tick_params(labelsize=10)
             ax.set_xlabel(_axis_label("True value", dataset), fontsize=11)
             if col == 0:
