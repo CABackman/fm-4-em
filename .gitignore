@@ -18,4 +18,5 @@ dist/
 tmp/
 *.pkl
 *.npz
-
+07_OUTPUTS/
+04_FM_CPS/
