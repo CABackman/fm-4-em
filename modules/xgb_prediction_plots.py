@@ -14,7 +14,7 @@ DEFAULT_EMBEDDINGS = ("QU", "MACE OFF")
 UNITS_MAP = {
     r"$\rho_{cryst}$": r"g/cm$^3$",
     "HOF": "kJ/mol",
-    "IS": r"$\log{J}$",
+    "IS": r"$\ln{(J)}$",
     }
 
 
