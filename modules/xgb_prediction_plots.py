@@ -11,6 +11,7 @@ import pandas as pd
 
 DEFAULT_DATASETS = (r"$\rho_{cryst}$", "HOF", "IS")
 DEFAULT_EMBEDDINGS = ("QU", "MACE OFF")
+POSTER_FONT_SIZE = 36
 UNITS_MAP = {
     r"$\rho_{cryst}$": r"g/cm$^3$",
     "HOF": "kJ/mol",
@@ -76,37 +77,37 @@ def plot_residual_grid(
     use_aggregated: bool = True,
     datasets: Sequence[str] = DEFAULT_DATASETS,
     embeddings: Sequence[str] = DEFAULT_EMBEDDINGS,
-    figsize: tuple[float, float] = (10, 11),
+    figsize: tuple[float, float] = (24, 16),
     smooth_frac: float = 0.18,
     show_pred_std: bool = False,
     point_size: float = 18,
     point_alpha: float = 0.35,
 ):
-    """Plot residuals versus true values in a dataset-by-embedding grid."""
+    """Plot residuals versus true values with embeddings as rows and datasets as columns."""
     plot_df = aggregate_seed_predictions(df) if use_aggregated else df.copy()
     plot_df["residual"] = plot_df["y_pred"] - plot_df["y_true"]
 
     fig, axes = plt.subplots(
-        len(datasets),
         len(embeddings),
+        len(datasets),
         figsize=figsize,
-        sharex="row",
-        sharey="row",
+        sharex="col",
+        sharey="col",
         constrained_layout=True,
         squeeze=False,
     )
 
-    for row, dataset in enumerate(datasets):
-        row_df = plot_df[plot_df["dataset"] == dataset]
-        if not row_df.empty:
-            x_min, x_max = _padded_limits(row_df["y_true"])
-            y_min, y_max = _padded_limits(row_df["residual"], include_zero=True)
+    for col, dataset in enumerate(datasets):
+        dataset_df = plot_df[plot_df["dataset"] == dataset]
+        if not dataset_df.empty:
+            x_min, x_max = _padded_limits(dataset_df["y_true"])
+            y_min, y_max = _padded_limits(dataset_df["residual"], include_zero=True)
         else:
             x_min, x_max, y_min, y_max = 0.0, 1.0, -1.0, 1.0
 
-        for col, embedding in enumerate(embeddings):
+        for row, embedding in enumerate(embeddings):
             ax = axes[row, col]
-            panel_df = row_df[row_df["embedding"] == embedding].copy()
+            panel_df = dataset_df[dataset_df["embedding"] == embedding].copy()
 
             ax.axhline(0, color="0.25", linewidth=1.0, linestyle="--", zorder=1)
             if not panel_df.empty:
@@ -136,14 +137,13 @@ def plot_residual_grid(
             else:
                 _annotate_metrics(ax, "No data")
 
-            ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=12)
+            ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=POSTER_FONT_SIZE)
             ax.set_xlim(x_min, x_max)
             ax.set_ylim(y_min, y_max)
             ax.set_box_aspect(1)
-            ax.tick_params(labelsize=10)
-            ax.set_xlabel(_axis_label("True value", dataset), fontsize=11)
-            if col == 0:
-                ax.set_ylabel(_axis_label("Prediction residual", dataset), fontsize=11)
+            ax.tick_params(labelsize=POSTER_FONT_SIZE)
+            ax.set_xlabel(_axis_label("True value", dataset), fontsize=POSTER_FONT_SIZE)
+            ax.set_ylabel(_axis_label("Prediction residual", dataset), fontsize=POSTER_FONT_SIZE)
 
     return fig
 
@@ -155,23 +155,23 @@ def plot_parity_grid(
     use_aggregated: bool = True,
     datasets: Sequence[str] = DEFAULT_DATASETS,
     embeddings: Sequence[str] = DEFAULT_EMBEDDINGS,
-    figsize: tuple[float, float] = (10, 11),
+    figsize: tuple[float, float] = (24, 16),
     show_pred_std: bool = False,
     point_size: float = 18,
     point_alpha: float = 0.45,
     cmap: str = "viridis",
 ):
-    """Plot predicted versus true values in a dataset-by-embedding grid."""
+    """Plot predicted versus true values with embeddings as rows and datasets as columns."""
     plot_df = aggregate_seed_predictions(df) if use_aggregated else df.copy()
     if color_by is not None and color_by not in plot_df.columns:
         raise ValueError(f"color_by={color_by!r} is not a column in the plotting frame.")
 
     fig, axes = plt.subplots(
-        len(datasets),
         len(embeddings),
+        len(datasets),
         figsize=figsize,
-        sharex="row",
-        sharey="row",
+        sharex="col",
+        sharey="col",
         constrained_layout=True,
         squeeze=False,
     )
@@ -186,17 +186,17 @@ def plot_parity_grid(
     else:
         vmin = vmax = None
 
-    for row, dataset in enumerate(datasets):
-        row_df = plot_df[plot_df["dataset"] == dataset]
-        if not row_df.empty:
-            axis_values = pd.concat([row_df["y_true"], row_df["y_pred"]])
+    for col, dataset in enumerate(datasets):
+        dataset_df = plot_df[plot_df["dataset"] == dataset]
+        if not dataset_df.empty:
+            axis_values = pd.concat([dataset_df["y_true"], dataset_df["y_pred"]])
             lim_min, lim_max = _padded_limits(axis_values)
         else:
             lim_min, lim_max = 0.0, 1.0
 
-        for col, embedding in enumerate(embeddings):
+        for row, embedding in enumerate(embeddings):
             ax = axes[row, col]
-            panel_df = row_df[row_df["embedding"] == embedding].copy()
+            panel_df = dataset_df[dataset_df["embedding"] == embedding].copy()
 
             ax.plot([lim_min, lim_max], [lim_min, lim_max], color="0.25", linewidth=1.0, zorder=1)
             if not panel_df.empty:
@@ -243,18 +243,19 @@ def plot_parity_grid(
             else:
                 _annotate_metrics(ax, "No data")
 
-            ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=12)
+            ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=POSTER_FONT_SIZE)
             ax.set_xlim(lim_min, lim_max)
             ax.set_ylim(lim_min, lim_max)
             _set_matching_ticks(ax, lim_min, lim_max)
             ax.set_box_aspect(1)
-            ax.tick_params(labelsize=10)
-            ax.set_xlabel(_axis_label("True value", dataset), fontsize=11)
-            if col == 0:
-                ax.set_ylabel(_axis_label("Predicted value", dataset), fontsize=11)
+            ax.tick_params(labelsize=POSTER_FONT_SIZE)
+            ax.set_xlabel(_axis_label("True value", dataset), fontsize=POSTER_FONT_SIZE)
+            ax.set_ylabel(_axis_label("Predicted value", dataset), fontsize=POSTER_FONT_SIZE)
 
     if color_mappable is not None:
-        fig.colorbar(color_mappable, ax=axes.ravel().tolist(), label=color_by, shrink=0.82)
+        colorbar = fig.colorbar(color_mappable, ax=axes.ravel().tolist(), shrink=0.82)
+        colorbar.set_label(color_by, fontsize=POSTER_FONT_SIZE)
+        colorbar.ax.tick_params(labelsize=POSTER_FONT_SIZE)
 
     return fig
 
@@ -329,6 +330,6 @@ def _annotate_metrics(ax, text: str) -> None:
         transform=ax.transAxes,
         va="top",
         ha="left",
-        fontsize=10,
+        fontsize=POSTER_FONT_SIZE,
         bbox={"boxstyle": "round,pad=0.25", "facecolor": "white", "edgecolor": "0.8", "alpha": 0.85},
     )
