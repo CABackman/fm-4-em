@@ -11,7 +11,6 @@ import pandas as pd
 
 DEFAULT_DATASETS = (r"$\rho_{cryst}$", "HOF", "IS")
 DEFAULT_EMBEDDINGS = ("QU", "MACE OFF")
-POSTER_FONT_SIZE = 36
 UNITS_MAP = {
     r"$\rho_{cryst}$": r"g/cm$^3$",
     "HOF": "kJ/mol",
@@ -77,7 +76,7 @@ def plot_residual_grid(
     use_aggregated: bool = True,
     datasets: Sequence[str] = DEFAULT_DATASETS,
     embeddings: Sequence[str] = DEFAULT_EMBEDDINGS,
-    figsize: tuple[float, float] = (24, 16),
+    figsize: tuple[float, float] = (21, 14),
     smooth_frac: float = 0.18,
     show_pred_std: bool = False,
     point_size: float = 18,
@@ -137,13 +136,15 @@ def plot_residual_grid(
             else:
                 _annotate_metrics(ax, "No data")
 
-            ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=POSTER_FONT_SIZE)
+            ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=12)
             ax.set_xlim(x_min, x_max)
             ax.set_ylim(y_min, y_max)
             ax.set_box_aspect(1)
-            ax.tick_params(labelsize=POSTER_FONT_SIZE)
-            ax.set_xlabel(_axis_label("True value", dataset), fontsize=POSTER_FONT_SIZE)
-            ax.set_ylabel(_axis_label("Prediction residual", dataset), fontsize=POSTER_FONT_SIZE)
+            ax.tick_params(labelsize=10)
+            ax.tick_params(axis="x", labelrotation=45)
+            plt.setp(ax.get_xticklabels(), ha="right")
+            ax.set_xlabel(_axis_label("True value", dataset), fontsize=11)
+            ax.set_ylabel(_axis_label("Prediction residual", dataset), fontsize=11)
 
     return fig
 
@@ -155,7 +156,7 @@ def plot_parity_grid(
     use_aggregated: bool = True,
     datasets: Sequence[str] = DEFAULT_DATASETS,
     embeddings: Sequence[str] = DEFAULT_EMBEDDINGS,
-    figsize: tuple[float, float] = (24, 16),
+    figsize: tuple[float, float] = (21, 14),
     show_pred_std: bool = False,
     point_size: float = 18,
     point_alpha: float = 0.45,
@@ -239,23 +240,24 @@ def plot_parity_grid(
                 _annotate_metrics(
                     ax,
                     f"R2 = {metrics['R2']:.3g}\nMAE = {metrics['MAE']:.3g}\nRMSE = {metrics['RMSE']:.3g}",
+                    fontsize=10,
                 )
             else:
-                _annotate_metrics(ax, "No data")
+                _annotate_metrics(ax, "No data", fontsize=10)
 
-            ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=POSTER_FONT_SIZE)
+            ax.set_title(f"{_dataset_label(dataset)} | {embedding}", fontsize=12)
             ax.set_xlim(lim_min, lim_max)
             ax.set_ylim(lim_min, lim_max)
             _set_matching_ticks(ax, lim_min, lim_max)
             ax.set_box_aspect(1)
-            ax.tick_params(labelsize=POSTER_FONT_SIZE)
-            ax.set_xlabel(_axis_label("True value", dataset), fontsize=POSTER_FONT_SIZE)
-            ax.set_ylabel(_axis_label("Predicted value", dataset), fontsize=POSTER_FONT_SIZE)
+            ax.tick_params(labelsize=10)
+            ax.tick_params(axis="x", labelrotation=45)
+            plt.setp(ax.get_xticklabels(), ha="right")
+            ax.set_xlabel(_axis_label("True value", dataset), fontsize=11)
+            ax.set_ylabel(_axis_label("Predicted value", dataset), fontsize=11)
 
     if color_mappable is not None:
-        colorbar = fig.colorbar(color_mappable, ax=axes.ravel().tolist(), shrink=0.82)
-        colorbar.set_label(color_by, fontsize=POSTER_FONT_SIZE)
-        colorbar.ax.tick_params(labelsize=POSTER_FONT_SIZE)
+        fig.colorbar(color_mappable, ax=axes.ravel().tolist(), label=color_by, shrink=0.82)
 
     return fig
 
@@ -322,7 +324,7 @@ def _plot_rolling_mean(ax, x, y, smooth_frac: float) -> None:
     )
 
 
-def _annotate_metrics(ax, text: str) -> None:
+def _annotate_metrics(ax, text: str, *, fontsize: float = 10) -> None:
     ax.text(
         0.04,
         0.96,
@@ -330,6 +332,6 @@ def _annotate_metrics(ax, text: str) -> None:
         transform=ax.transAxes,
         va="top",
         ha="left",
-        fontsize=POSTER_FONT_SIZE,
+        fontsize=fontsize,
         bbox={"boxstyle": "round,pad=0.25", "facecolor": "white", "edgecolor": "0.8", "alpha": 0.85},
     )
