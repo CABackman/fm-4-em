@@ -10,11 +10,8 @@ from rdkit.Chem.rdchem import BondType as BT
 from torch_geometric.data import Data
 from torch_geometric.loader import DataLoader
 
-from pathlib import Path
-import sys
-
-ROOT = Path(__file__).resolve().parents[2]       # .../01_FOUNDATION_MODELS
-molclr_root = ROOT / "01_FOUNDATION_MODELS/04_FM_CPS"                    # .../01_FOUNDATION_MODELS/04_FM_CPS
+ROOT = Path(__file__).resolve().parents[1]
+molclr_root = ROOT / "04_FM_CPS"
 sys.path.insert(0, str(molclr_root))
 from MolCLR.models.ginet_molclr import GINet
 
@@ -210,4 +207,3 @@ def mol_clr_embed(smiles: Iterable[str], ckpt_path: str | None = None) -> torch.
 
     emb = torch.cat(embeddings, dim=0)
     return emb
-

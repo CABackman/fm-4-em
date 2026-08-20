@@ -19,14 +19,16 @@ echo "Working directory: $(pwd)"
 echo "Python: $(which python)"
 python --version
 
-. /etc/profile.d/modules.sh
-module load anaconda
+if [[ -f /etc/profile.d/modules.sh ]]; then
+  . /etc/profile.d/modules.sh
+  module load anaconda
+fi
 eval "$(conda shell.bash hook)"
-conda activate /exports/eddie/scratch/s1948145/anaconda/envs/chem
+conda activate "${CONDA_ENV:-chem}"
 
 
 # Output root for results
-OUT_DIR="/exports/eddie/scratch/s1948145/Model_ckpts"
+OUT_DIR="${OUTPUT_DIR:-07_OUTPUTS}"
 
 # repo conventions:
 # - Data CSV:     01_DATASETS/<dataset>/*.csv

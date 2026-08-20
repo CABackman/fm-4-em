@@ -323,4 +323,3 @@ dependencies:
       - xarray==2025.10.1
       - xxhash==3.6.0
       - yarl==1.22.0
-prefix: /home/andre/anaconda3/envs/chem

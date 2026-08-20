@@ -43,16 +43,13 @@ from pathlib import Path
 import joblib
 import numpy as np
 import pandas as pd
-import torch
 
 # Make `modules` importable regardless of CWD
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
 from modules.linreg import fit_linear_model_with_fixed_split
-from modules.mlp_tuning import tune_mlp_with_fixed_split
 from modules.random_forest import fit_random_forest_with_fixed_split
-from modules.tabpfn import fit_tabpfn_with_fixed_split
 
 
 def parse_args() -> argparse.Namespace:
@@ -304,6 +301,12 @@ def run_linear(embd: np.ndarray, y: np.ndarray, train_idx: np.ndarray, test_idx:
 
 
 def run_mlp(embd: np.ndarray, y: np.ndarray, train_idx: np.ndarray, test_idx: np.ndarray, args: argparse.Namespace):
+    try:
+        from modules.mlp_tuning import tune_mlp_with_fixed_split
+    except ImportError as exc:
+        raise RuntimeError(
+            "MLP training requires the PyTorch dependencies in environment.yml."
+        ) from exc
     # Hyperparameter tuning happens strictly within the TRAIN split via CV.
     # The TEST split is used only once for final evaluation.
     return tune_mlp_with_fixed_split(
@@ -326,7 +329,13 @@ def run_mlp(embd: np.ndarray, y: np.ndarray, train_idx: np.ndarray, test_idx: np
 
 
 def run_tabpfn(embd: np.ndarray, y: np.ndarray, train_idx: np.ndarray, test_idx: np.ndarray, args: argparse.Namespace):
-
+    try:
+        from modules.tabpfn import fit_tabpfn_with_fixed_split
+    except ImportError as exc:
+        raise RuntimeError(
+            "TabPFN support is optional and is not included in the anonymized "
+            "submission. Use linear, rf, xgboost, or mlp."
+        ) from exc
     return fit_tabpfn_with_fixed_split(
         embd,
         y,
@@ -449,6 +458,8 @@ if __name__ == "__main__":
             path = ckpt_dir / f"{stem}.json"
             path.write_text(json.dumps(safe_dict, indent=2, default=str))
     elif model_dict.get("save_type") == "torch":
+        import torch
+
         path = ckpt_dir / f"{stem}.pt"
         torch.save(model_dict, path)
     else:

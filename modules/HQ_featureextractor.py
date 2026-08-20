@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 16 10:55:11 2024
+"""Molecular descriptor extraction utilities.
 
-@author: heatherquayle
-
-Adapted from codes by Jack M. Hemingway (University of Edinburgh, In-person communication) 
-and J. Rein et al. (ref: doi.org/10.1002/anie.202218213)
-
+The implementation incorporates published SMARTS-based descriptor methods;
+see the data and software provenance section of the project README.
 """
 ### script to extract molecular descriptors from sheet containing SMILES ###
 
@@ -51,7 +47,7 @@ def chemdescriptor(molecule):
     ringn = counter(molecule, '[#7D2H0]')
     oh = counter(molecule, '[$(O)H]')
     nr3 = counter(molecule, '[$([#7]);X3;!$(N[O]);H0]')
-    
+
     # calculate h-bond ratio
     donors = (2*nh2) + nhr2 + oh
     acceptors = (2*no2) + nh2 + co + coc + con + nhr2 + ringn + oh + nr3
@@ -118,4 +114,3 @@ if __name__ == "__main__":
     descriptors = [chemdescriptor(s) for s in smiles]
     df = pd.DataFrame(descriptors)
     print(df.head())
-    

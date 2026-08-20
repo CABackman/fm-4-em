@@ -7,7 +7,7 @@ set -e
 
 # Path to embedding (pick the first .npy file found)
 EMBEDDING="hq_descriptor"
-SPLIT=""cluster_label0""
+SPLIT="cluster_label0"
 
 # Create temp output directory
 OUTDIR="07_OUTPUTS/temp/"
@@ -19,7 +19,7 @@ python 05_PY_SCRIPTS/run_model_train.py \
   --split "$SPLIT" \
   --output_dir "$OUTDIR" \
   --dataset "HOF" \
-  --model "linear" \
+  --model "linear"
 
 # Run the model training script
 python 05_PY_SCRIPTS/run_model_train.py \
@@ -27,7 +27,7 @@ python 05_PY_SCRIPTS/run_model_train.py \
   --split "$SPLIT" \
   --output_dir "$OUTDIR" \
   --dataset "HOF" \
-  --model "xgboost" \
+  --model "xgboost"
 
   # Run the model training script
 python 05_PY_SCRIPTS/run_model_train.py \
@@ -35,7 +35,7 @@ python 05_PY_SCRIPTS/run_model_train.py \
   --split "$SPLIT" \
   --output_dir "$OUTDIR" \
   --dataset "HOF" \
-  --model "mlp" \
+  --model "mlp"
   
 # Run the model training script
 python 05_PY_SCRIPTS/run_model_train.py \
@@ -43,7 +43,7 @@ python 05_PY_SCRIPTS/run_model_train.py \
   --split "$SPLIT" \
   --output_dir "$OUTDIR" \
   --dataset "HOF" \
-  --model "rf" \
+  --model "rf"
 
 
 echo "Training completed. Output written to $OUTDIR"
