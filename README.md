@@ -63,17 +63,3 @@ values above.
 The experiments use five random 80/20 splits and five structure-cluster
 holdouts. Hyperparameter selection is performed only on the training data. The
 main reported metrics are MAE, RMSE, and R-squared.
-
-## Submission note
-
-Notebook outputs and machine-specific paths have been removed. Do not include
-`.git/`, `07_OUTPUTS/`, caches, or local model directories in the anonymous
-submission. After committing the intended files, create the ZIP with:
-
-```bash
-git archive --format=zip --output ../anonymous_neurips_code.zip HEAD
-```
-
-The datasets originate from published literature compilations. Their citations
-and redistribution terms should be included in the paper and finalized before
-any public release.
