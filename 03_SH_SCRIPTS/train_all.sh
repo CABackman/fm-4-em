@@ -8,38 +8,28 @@
 #$ -m ae
 #$ -o output_files/$JOB_NAME.$JOB_ID.$TASK_ID.out
 #$ -e output_files/$JOB_NAME.$JOB_ID.$TASK_ID.err
+#$ -t 1-200
 
-set -euo pipefail 
+# Submit from the repository root:
+#   qsub 03_SH_SCRIPTS/train_all.sh
 
-mkdir -p output_files
+set -euo pipefail
 
+# SGE -cwd means this should be submitted from the repository root.
+export PROJECT_DIR="${PROJECT_DIR:-$PWD}"
+OUT_DIR="${TRAIN_OUT_DIR:-/exports/eddie/scratch/s1948145/Model_ckpts}"
 
-echo "Hostname: $(hostname)"
-echo "Working directory: $(pwd)"
-echo "Python: $(which python)"
-python --version
-
-. /etc/profile.d/modules.sh
-module load anaconda
-eval "$(conda shell.bash hook)"
-conda activate /exports/eddie/scratch/s1948145/anaconda/envs/chem
-
-
-# Output root for results
-OUT_DIR="/exports/eddie/scratch/s1948145/Model_ckpts"
-
-# repo conventions:
+# Repository conventions:
 # - Data CSV:     01_DATASETS/<dataset>/*.csv
 # - Split indices:01_DATASETS/<dataset>/<split>_split_test_idx.npy
 # - Embeddings:   02_EMBEDDINGS/<dataset>/<encoder>.npy
 
 # Define choices
 SEEDS=(0 1 2 3 4)
-SPLITS=("cluster_label0" "cluster_label1" "cluster_label2" "cluster_label3" "cluster_label4")
+SPLITS=("random_seed0" "random_seed1" "random_seed2" "random_seed3" "random_seed4")
 MODELS=("rf" "mlp" "linear" "xgboost")
-DATASETS=("HOF" "CD" "IS")
+DATASETS=("IS")
 
-# Pick the embedding for this task
 LIST_FILE="03_SH_SCRIPTS/embeddings.txt"
 N_ENCODERS=$(wc -l < "$LIST_FILE")
 N_DATASETS=${#DATASETS[@]}
@@ -53,11 +43,11 @@ if (( SGE_TASK_ID < 1 || SGE_TASK_ID > TOTAL_TASKS )); then
   exit 0
 fi
 
-# Prevent oversubscription (esp. sklearn/numpy):
-export OMP_NUM_THREADS="${NSLOTS:-1}"
-export MKL_NUM_THREADS="${NSLOTS:-1}"
-export OPENBLAS_NUM_THREADS="${NSLOTS:-1}"
-export NUMEXPR_NUM_THREADS="${NSLOTS:-1}"
+# One estimator per allocated core; keep numerical libraries single-threaded.
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+export OPENBLAS_NUM_THREADS=1
+export NUMEXPR_NUM_THREADS=1
 
 # Map SGE_TASK_ID -> (encoder, dataset, model, split, seed)
 idx=$((SGE_TASK_ID - 1))
@@ -78,7 +68,19 @@ SEED="${SEEDS[$seed_idx]}"
 echo "JOB_ID=$JOB_ID TASK_ID=$SGE_TASK_ID HOST=$(hostname) NSLOTS=${NSLOTS:-1}"
 echo "Running: dataset=$DATASET split=$SPLIT model=$MODEL encoder=$ENCODER seed=$SEED"
 
-python 05_PY_SCRIPTS/run_model_train.py \
+mkdir -p output_files
+
+. /etc/profile.d/modules.sh
+module load anaconda
+eval "$(conda shell.bash hook)"
+conda activate chem
+
+echo "Hostname: $(hostname)"
+echo "Working directory: $(pwd)"
+echo "Python: $(which python)"
+python --version
+
+python -u 05_PY_SCRIPTS/run_model_train.py \
   --dataset "$DATASET" \
   --split "$SPLIT" \
   --embedding "$ENCODER" \

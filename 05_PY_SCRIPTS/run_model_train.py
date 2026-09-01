@@ -52,7 +52,6 @@ sys.path.insert(0, str(REPO_ROOT))
 from modules.linreg import fit_linear_model_with_fixed_split
 from modules.mlp_tuning import tune_mlp_with_fixed_split
 from modules.random_forest import fit_random_forest_with_fixed_split
-from modules.tabpfn import fit_tabpfn_with_fixed_split
 
 
 def parse_args() -> argparse.Namespace:
@@ -71,7 +70,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--model",
         type=str,
-        choices=["linear", "rf", "xgboost", "mlp", "tabpfn"],
+        choices=["linear", "rf", "xgboost", "mlp"],
         default="linear",
         help="Downstream model to run",
     )
