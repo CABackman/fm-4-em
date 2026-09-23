@@ -5,13 +5,19 @@
 #$ -l h_rt=24:00:00
 #$ -l h_rss=8G
 #$ -pe sharedmem 4
+#$ -t 1-1500
 #$ -m ae
 #$ -o output_files/$JOB_NAME.$JOB_ID.$TASK_ID.out
 #$ -e output_files/$JOB_NAME.$JOB_ID.$TASK_ID.err
 
-set -euo pipefail 
+set -euo pipefail
 
-mkdir -p output_files
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# SGE_O_WORKDIR is the directory from which qsub was submitted. Prefer it to
+# the execution host's spool directory when qsub does not honour -cwd.
+PROJECT_DIR="${PROJECT_DIR:-${SGE_O_WORKDIR:-$(cd "${SCRIPT_DIR}/.." && pwd)}}"
+cd "${PROJECT_DIR}"
+mkdir -p "${PROJECT_DIR}/output_files"
 
 
 echo "Hostname: $(hostname)"
@@ -26,7 +32,7 @@ conda activate /exports/eddie/scratch/s1948145/anaconda/envs/chem
 
 
 # Output root for results
-OUT_DIR="/exports/eddie/scratch/s1948145/Model_ckpts"
+OUT_DIR="${MODEL_TRAIN_OUT_DIR:-/exports/eddie/scratch/s1948145/Model_ckpts_rerun}"
 
 # repo conventions:
 # - Data CSV:     01_DATASETS/<dataset>/*.csv
@@ -40,7 +46,7 @@ MODELS=("rf" "mlp" "linear" "xgboost")
 DATASETS=("HOF" "CD" "IS")
 
 # Pick the embedding for this task
-LIST_FILE="03_SH_SCRIPTS/embeddings.txt"
+LIST_FILE="${PROJECT_DIR}/03_SH_SCRIPTS/embeddings.txt"
 N_ENCODERS=$(wc -l < "$LIST_FILE")
 N_DATASETS=${#DATASETS[@]}
 N_MODELS=${#MODELS[@]}

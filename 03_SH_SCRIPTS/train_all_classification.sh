@@ -16,9 +16,10 @@
 
 set -euo pipefail
 
-# SGE -cwd means this should be submitted from the repository root.
-export PROJECT_DIR="${PROJECT_DIR:-$PWD}"
-OUT_DIR="${CLASSIFICATION_OUT_DIR:-/exports/eddie/scratch/s1948145/Classification_ckpts}"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export PROJECT_DIR="${PROJECT_DIR:-${SGE_O_WORKDIR:-$(cd "${SCRIPT_DIR}/.." && pwd)}}"
+cd "${PROJECT_DIR}"
+OUT_DIR="${CLASSIFICATION_OUT_DIR:-/exports/eddie/scratch/s1948145/Classification_ckpts_rerun}"
 
 CLASSIFICATIONS=("binary" "tertiary" "quaternary" "quinary")
 EMBEDDINGS=("hq_descriptor" "chemeleon" "morgan_fps" "maceoff_large" "molclr")
@@ -77,7 +78,7 @@ if [[ "${CLASSIFICATION_MAP_ONLY:-0}" == "1" ]]; then
   exit 0
 fi
 
-mkdir -p output_files
+mkdir -p "${PROJECT_DIR}/output_files"
 
 . /etc/profile.d/modules.sh
 module load anaconda

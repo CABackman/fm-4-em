@@ -52,7 +52,13 @@ sys.path.insert(0, str(REPO_ROOT))
 from modules.linreg import fit_linear_model_with_fixed_split
 from modules.mlp_tuning import tune_mlp_with_fixed_split
 from modules.random_forest import fit_random_forest_with_fixed_split
-from modules.tabpfn import fit_tabpfn_with_fixed_split
+
+try:
+    from modules.tabpfn import fit_tabpfn_with_fixed_split
+except ModuleNotFoundError:
+    # TabPFN is optional. The standard regression array does not request it,
+    # so its absence must not prevent the other models from running.
+    fit_tabpfn_with_fixed_split = None
 
 
 def parse_args() -> argparse.Namespace:
@@ -326,6 +332,11 @@ def run_mlp(embd: np.ndarray, y: np.ndarray, train_idx: np.ndarray, test_idx: np
 
 
 def run_tabpfn(embd: np.ndarray, y: np.ndarray, train_idx: np.ndarray, test_idx: np.ndarray, args: argparse.Namespace):
+
+    if fit_tabpfn_with_fixed_split is None:
+        raise ModuleNotFoundError(
+            "TabPFN was requested, but modules.tabpfn is not available in this checkout."
+        )
 
     return fit_tabpfn_with_fixed_split(
         embd,
