@@ -28,6 +28,9 @@ MACE-OFF performs best overall, while the Quayle descriptors are the most robust
 
 ## Paper Abstract & Link
 **DOI**:
+
+
 **Abstract**:
+Abstract: This study evaluates the performance of off-the-shelf foundation model embeddings provided by CheMeleon, MolCLR, and MACE-OFF to predict energetic material properties from sparse datasets. Models were trained to predict crystal density, heat of formation and impact sensitivity from SMILES strings, with performance benchmarked against molecular representations provided by Morgan fingerprints and hand-crafted descriptors. Overall, the foundation model embeddings were found to be competitive with the hand-crafted descriptors, with MACE-OFF showing the strongest performance in numerical regression tasks. Heat of formation was found to be the most predictable property ( R 2 = 0.72 ), followed by crystal density ( R 2 = 0.54 ) and impact sensitivity ( R 2 = 0.47 ). Testing under more demanding cluster-based data splitting revealed that MACE-OFF retained the strongest performance across representations, suggesting that its learned embeddings generalise more effectively than hand-crafted descriptors to molecules that are more dissimilar to the training set distribution. Predictability for impact sensitivity improved noticeably when recast as a classification task, where CheMeleon emerged with comparable performance to the hand-crafted descriptors. These results show that while foundation model embeddings can provide useful low-input screening tools for energetic materials, they are not yet a competitive replacement for the bespoke models trained on larger datasets.
 
 
