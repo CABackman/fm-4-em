@@ -27,7 +27,7 @@ MACE-OFF performs best overall, while the Quayle descriptors are the most robust
 - `07_OUTPUTS/`: model outputs and evaluation results (not tracked on git)
 
 ## Paper Abstract & Link
-**DOI**:
+**DOI**: 10.5281/zenodo.22939500
 
 
 **Abstract**:
