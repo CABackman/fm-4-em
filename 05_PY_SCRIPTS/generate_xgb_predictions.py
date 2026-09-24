@@ -10,6 +10,7 @@ results in a single parquet file.
 
 from __future__ import annotations
 
+import argparse
 import pickle
 import re
 from pathlib import Path
@@ -20,8 +21,26 @@ import pandas as pd
 
 DATASETS = ["CD", "HOF", "IS"]
 EMBEDDINGS = ("hq_descriptor", "maceoff_large")
-CHECKPOINT_ROOT = Path("/home/andre/01_FOUNDATION_MODELS/07_OUTPUTS/20260625")
 OUTPUT_FILENAME = "deep_dive_xgb_predictions.parquet"
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Regenerate pooled predictions from saved XGBoost checkpoints."
+    )
+    parser.add_argument(
+        "--checkpoint-root",
+        type=Path,
+        required=True,
+        help="Run directory containing <dataset>/xgboost/<embedding>/...",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        required=True,
+        help="Output Parquet path.",
+    )
+    return parser.parse_args()
 
 
 def _load_dataset_table(dataset: str, datasets_dir: Path, cache: dict[str, pd.DataFrame], id_cache: dict[str, str]) -> tuple[pd.DataFrame, str]:
@@ -99,11 +118,31 @@ def _load_estimator(ckpt_path: Path):
     return artifact
 
 
+def _set_training_base_score(estimator, train_targets: np.ndarray) -> None:
+    """Restore the pre-XGBoost-3 regression base score after unpickling.
+
+    The checkpoints were written by an older XGBoost version.  XGBoost 3
+    reloads the old pickle with ``base_score=None`` and then predicts as if
+    the base score were 0.5, which shifts regression predictions away from
+    the values used to produce the saved benchmark metrics.
+    """
+    model = estimator
+    if hasattr(estimator, "named_steps"):
+        model = estimator.named_steps.get("model", estimator)
+
+    if not hasattr(model, "set_params") or "base_score" not in model.get_params():
+        raise TypeError("Expected an XGBoost estimator with a base_score parameter.")
+
+    model.set_params(base_score=float(np.mean(train_targets)))
+
+
 def main() -> None:
+    args = parse_args()
     repo_root = Path(__file__).resolve().parents[1]
     datasets_dir = repo_root / "01_DATASETS"
     embeddings_dir = repo_root / "02_EMBEDDINGS"
-    output_path = repo_root / OUTPUT_FILENAME
+    checkpoint_root = args.checkpoint_root.expanduser().resolve()
+    output_path = args.output.expanduser().resolve()
 
     data_cache: dict[str, pd.DataFrame] = {}
     id_cache: dict[str, str] = {}
@@ -115,7 +154,7 @@ def main() -> None:
 
     for dataset in DATASETS:
         for embedding in EMBEDDINGS:
-            ckpt_dir = CHECKPOINT_ROOT / dataset / "xgboost" / embedding
+            ckpt_dir = checkpoint_root / dataset / "xgboost" / embedding
             if not ckpt_dir.exists():
                 raise FileNotFoundError(f"Checkpoint directory missing: {ckpt_dir}")
 
@@ -144,6 +183,8 @@ def main() -> None:
                 compound_ids = df.iloc[indices][id_column].to_list()
                 X_test = embeddings[indices]
                 y_test = y_true[indices]
+                train_idx = np.setdiff1d(np.arange(len(df)), indices)
+                _set_training_base_score(estimator, y_true[train_idx])
 
                 y_pred = estimator.predict(X_test)
                 y_pred = np.asarray(y_pred).ravel()
@@ -157,6 +198,7 @@ def main() -> None:
                     {
                         "dataset": dataset,
                         "embedding": embedding,
+                        "split_method": f"random_seed{split_seed}",
                         "split_seed": split_seed,
                         "model_seed": model_seed,
                         "compound_id": compound_ids,
@@ -165,11 +207,11 @@ def main() -> None:
                     }
                 )
                 records.append(record)
-                print(f"Processed {ckpt_path.relative_to(CHECKPOINT_ROOT)}")
+                print(f"Processed {ckpt_path.relative_to(checkpoint_root)}")
 
     if not checkpoints_found:
         raise RuntimeError(
-            f"No XGBoost checkpoints found under {CHECKPOINT_ROOT}."
+            f"No XGBoost checkpoints found under {checkpoint_root}."
         )
 
     all_results = pd.concat(records, ignore_index=True)
